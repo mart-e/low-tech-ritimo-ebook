@@ -1,4 +1,4 @@
-NAME=roads-and-bridges
+NAME=low-tech-ritimo
 EPUB=${NAME}.epub
 MOBI=${NAME}.mobi
 
