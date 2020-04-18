@@ -1647,7 +1647,6 @@
 .body0 {
   -epub-writing-mode: horizontal-tb;
   -webkit-writing-mode: horizontal-tb;
-  direction: ltr;
   writing-mode: horizontal-tb;
 }
 
@@ -1684,4 +1683,13 @@
 
 .frame4 {
   width: 4.5626in;
+}
+
+body.fullpage {
+   margin: 0;
+   padding: 0;
+}
+section.cover {
+   display: block;
+   text-align: center;
 }
