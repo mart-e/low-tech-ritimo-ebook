@@ -69,39 +69,7 @@
   text-indent: -0.2362in;
 }
 
-.para22 {
-  margin:  0px 0px 0px 0px;
-  text-align: justify;
-}
-
 .para17 {
-  background-color: transparent;
-  line-height: 115.0000%;
-  margin:  0.0000in 0.5902in 0.0972in 0.0000in;
-  text-align: justify;
-  text-indent: 0.0000in;
-}
-
-.para24 {
-  margin:  0.0000in 0.3937in 0.1965in 0.3937in;
-  text-align: justify;
-  text-indent: 0.0000in;
-}
-
-.para18 {
-  background-color: transparent;
-  line-height: 115.0000%;
-  margin:  0.0000in 0.0000in 0.0000in 0.2362in;
-  text-align: justify;
-  text-indent: -0.2362in;
-}
-
-.para8 {
-  margin:  0px 0.0000in 0px 0.2354in;
-  text-indent: -0.2354in;
-}
-
-.para16 {
   line-height: 115.0000%;
   margin:  0.0000in 0.0000in 0.0000in 0.4925in;
   text-align: justify;
@@ -114,17 +82,17 @@
   text-align: right;
 }
 
-.para13 {
+.para14 {
   line-height: 120.0000%;
   margin:  0.1390in 0px 0.0835in 0px;
 }
 
-.para12 {
+.para13 {
   margin:  0.1665in 0px 0.0835in 0px;
   text-align: center;
 }
 
-.para11 {
+.para12 {
   margin:  0px 0px 0px 0px;
 }
 
@@ -155,6 +123,33 @@
   text-align: right;
 }
 
+.para18 {
+  background-color: transparent;
+  line-height: 115.0000%;
+  margin:  0.0000in 0.5902in 0.0972in 0.0000in;
+  text-align: justify;
+  text-indent: 0.0000in;
+}
+
+.para24 {
+  margin:  0.0000in 0.3937in 0.1965in 0.3937in;
+  text-align: justify;
+  text-indent: 0.0000in;
+}
+
+.para9 {
+  margin:  0px 0.0000in 0px 0.2354in;
+  text-indent: -0.2354in;
+}
+
+.para8 {
+  background-color: transparent;
+  line-height: 115.0000%;
+  margin:  0.0000in 0.0000in 0.0000in 0.2362in;
+  text-align: justify;
+  text-indent: -0.2362in;
+}
+
 .para4 {
   line-height: 120.0000%;
   margin:  0.0972in 0px 0.0835in 0px;
@@ -171,7 +166,12 @@
   text-align: right;
 }
 
-.para15 {
+.para22 {
+  margin:  0px 0px 0px 0px;
+  text-align: justify;
+}
+
+.para16 {
   line-height: 115.0000%;
   margin:  0.0000in 0px 0.0000in 0px;
   text-align: start;
@@ -183,7 +183,7 @@
   text-align: justify;
 }
 
-.para10 {
+.para11 {
   background-color: transparent;
   line-height: 115.0000%;
   margin:  0.0000in 0.5902in 0.0972in 1.4571in;
@@ -222,7 +222,7 @@
   text-align: start;
 }
 
-.para9 {
+.para10 {
   line-height: 115.0000%;
   margin:  0.0000in 0.0000in 0.0972in 0.4925in;
   text-align: justify;
@@ -316,7 +316,7 @@
   text-align: start;
 }
 
-.para14 {
+.para15 {
   margin:  0.0000in 0px 0.0000in 0px;
   text-align: justify;
 }
@@ -400,186 +400,50 @@
   text-align: justify;
 }
 
+.span176 {
+  background-color: transparent;
+  color: #000000;
+  font-effect: outline;
+  font-family: 'Times new roman';
+  font-size: 11.0000pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-decoration:  overline;
+  text-shadow: 1px 1px 1px #666666;
+  text-transform: none;
+}
+
+.span174 {
+  font-family: 'Times new roman';
+  font-size: 11.0000pt;
+  font-weight: normal;
+}
+
+.span173 {
+  background-color: transparent;
+  font-family: 'Times new roman';
+  font-size: 11.0000pt;
+}
+
+.span172 {
+  font-family: 'Times new roman';
+  font-size: 11.0000pt;
+  font-weight: bold;
+}
+
 .span169 {
   background-color: transparent;
   color: #000000;
   font-effect: outline;
   font-family: 'Times new roman';
-  font-size: 11.0000pt;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  letter-spacing: normal;
-  text-decoration:  overline;
-  text-shadow: 1px 1px 1px #666666;
-  text-transform: none;
-}
-
-.span167 {
-  font-family: 'Times new roman';
-  font-size: 11.0000pt;
-  font-weight: normal;
-}
-
-.span166 {
-  background-color: transparent;
-  font-family: 'Times new roman';
-  font-size: 11.0000pt;
-}
-
-.span165 {
-  font-family: 'Times new roman';
-  font-size: 11.0000pt;
-  font-weight: bold;
-}
-
-.span162 {
-  background-color: transparent;
-  color: #000000;
-  font-effect: outline;
-  font-family: 'Times new roman';
   font-size: 12.0000pt;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
   text-decoration:  overline;
   text-shadow: 1px 1px 1px #666666;
-}
-
-.span161 {
-  background-color: transparent;
-  color: #000000;
-  font-effect: outline;
-  font-family: 'Times new roman';
-  font-size: 12.0000pt;
-  font-style: normal;
-  font-weight: bold;
-  letter-spacing: normal;
-  text-decoration:  overline;
-  text-shadow: 1px 1px 1px #666666;
-}
-
-.span160 {
-  font-style: normal;
-  font-weight: bold;
-}
-
-.span158 {
-  color: #000080;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-weight: normal;
-  text-decoration:  underline;
-}
-
-.span157 {
-  font-family: 'Liberation Serif';
-  font-size: 16.0000pt;
-  font-weight: bold;
-}
-
-.span152 {
-  background-color: transparent;
-  font-style: italic;
-}
-
-.span150 {
-  background-color: transparent;
-  font-style: normal;
-}
-
-.span149 {
-  color: #000000;
-  font-effect: outline;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: normal;
-  font-weight: bold;
-  letter-spacing: normal;
-  text-shadow: 1px 1px 1px #666666;
-}
-
-.span146 {
-  font-effect: outline;
-  font-style: normal;
-  font-weight: bold;
-  letter-spacing: normal;
-  text-shadow: 1px 1px 1px #666666;
-}
-
-.span145 {
-  font-effect: outline;
-  font-style: normal;
-  font-weight: normal;
-  letter-spacing: normal;
-  text-shadow: 1px 1px 1px #666666;
-}
-
-.span140 {
-  color: #000000;
-  font-family: 'Liberation Serif';
-  font-size: 10.0000pt;
-}
-
-.span139 {
-  color: #000000;
-  font-family: 'Liberation Serif';
-  font-size: 10.0000pt;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  letter-spacing: normal;
-  text-transform: none;
-}
-
-.span136 {
-  font-family: 'Open sans';
-  font-size: 8.0000pt;
-}
-
-.span135 {
-  font-family: 'Open sans';
-  font-size: 10.0000pt;
-}
-
-.span155 {
-  font-family: 'Liberation Serif';
-  font-size: 20.0000pt;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.span142 {
-  background-color: transparent;
-  color: #000000;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: italic;
-  font-variant: normal;
-  font-weight: normal;
-  letter-spacing: normal;
-  text-transform: none;
-}
-
-.span134 {
-  background-color: transparent;
-  color: #000000;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: normal;
-  font-weight: bold;
-}
-
-.span131 {
-  background-color: transparent;
-  color: #00000a;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: normal;
-  letter-spacing: normal;
-  text-transform: none;
 }
 
 .span168 {
@@ -587,6 +451,143 @@
   color: #000000;
   font-effect: outline;
   font-family: 'Times new roman';
+  font-size: 12.0000pt;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-decoration:  overline;
+  text-shadow: 1px 1px 1px #666666;
+}
+
+.span167 {
+  font-style: normal;
+  font-weight: bold;
+}
+
+.span165 {
+  color: #000080;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-weight: normal;
+  text-decoration:  underline;
+}
+
+.span164 {
+  font-family: 'Liberation Serif';
+  font-size: 16.0000pt;
+  font-weight: bold;
+}
+
+.span160 {
+  color: #000080;
+  font-style: normal;
+  text-decoration:  underline;
+}
+
+.span155 {
+  background-color: transparent;
+  font-style: normal;
+}
+
+.span154 {
+  color: #000000;
+  font-effect: outline;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-shadow: 1px 1px 1px #666666;
+}
+
+.span151 {
+  font-effect: outline;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: normal;
+  text-shadow: 1px 1px 1px #666666;
+}
+
+.span150 {
+  font-effect: outline;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-shadow: 1px 1px 1px #666666;
+}
+
+.span145 {
+  color: #000000;
+  font-family: 'Liberation Serif';
+  font-size: 10.0000pt;
+}
+
+.span144 {
+  color: #000000;
+  font-family: 'Liberation Serif';
+  font-size: 10.0000pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.span141 {
+  font-family: 'Open sans';
+  font-size: 8.0000pt;
+}
+
+.span140 {
+  font-family: 'Open sans';
+  font-size: 10.0000pt;
+}
+
+.span162 {
+  font-family: 'Liberation Serif';
+  font-size: 20.0000pt;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.span147 {
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.span139 {
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.span136 {
+  background-color: transparent;
+  color: #00000a;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.span175 {
+  background-color: transparent;
+  color: #000000;
+  font-effect: outline;
+  font-family: 'Times new roman';
   font-size: 11.0000pt;
   font-style: normal;
   font-weight: normal;
@@ -595,21 +596,59 @@
   text-shadow: 1px 1px 1px #666666;
 }
 
-.span127 {
+.span132 {
   font-family: 'sans-serif';
   font-size: 10.0000pt;
   font-style: italic;
 }
 
-.span124 {
+.span129 {
   background-color: transparent;
   font-size: 12.0000pt;
   font-style: italic;
   font-weight: normal;
 }
 
-.span125 {
+.span128 {
   background-color: transparent;
+  color: #000000;
+  font-family: 'Liberation Serif';
+  font-style: italic;
+}
+
+.span130 {
+  background-color: transparent;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.span127 {
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Liberation Serif';
+}
+
+.span126 {
+  color: #000000;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.span124 {
+  font-effect: outline;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-shadow: 1px 1px 1px #666666;
+}
+
+.span135 {
+  background-color: transparent;
+  color: #00000a;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   font-style: normal;
@@ -617,49 +656,18 @@
 }
 
 .span123 {
-  background-color: transparent;
-  color: #000000;
-  font-family: 'Liberation Serif';
-}
-
-.span122 {
-  color: #000000;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.span119 {
-  font-effect: outline;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: normal;
-  font-weight: normal;
-  letter-spacing: normal;
-  text-shadow: 1px 1px 1px #666666;
-}
-
-.span130 {
-  background-color: transparent;
-  color: #00000a;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.span118 {
   color: #000080;
   font-size: 12.0000pt;
   font-weight: normal;
   text-decoration:  underline;
 }
 
-.span117 {
+.span122 {
   font-size: 12.0000pt;
   font-weight: bold;
 }
 
-.span144 {
+.span149 {
   color: #000000;
   font-effect: outline;
   font-style: normal;
@@ -668,14 +676,14 @@
   text-shadow: 1px 1px 1px #666666;
 }
 
-.span115 {
+.span120 {
   color: #00000a;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   font-style: italic;
 }
 
-.span111 {
+.span116 {
   color: #000000;
   font-effect: outline;
   font-family: 'Liberation Serif';
@@ -687,18 +695,18 @@
   text-transform: none;
 }
 
-.span110 {
+.span115 {
   color: #21409a;
   font-size: 10.0000pt;
 }
 
-.span109 {
+.span114 {
   color: #21409a;
   font-size: 10.0000pt;
   text-decoration:  underline;
 }
 
-.span143 {
+.span148 {
   color: #000000;
   font-effect: outline;
   font-family: 'Liberation Serif';
@@ -709,32 +717,25 @@
   text-shadow: 1px 1px 1px #666666;
 }
 
-.span107 {
+.span112 {
   color: #0d1f63;
   font-size: 10.0000pt;
 }
 
-.span120 {
-  font-family: 'Liberation Serif';
-  font-size: 18.0000pt;
-  font-style: italic;
-  font-weight: bold;
-}
-
-.span116 {
+.span121 {
   color: #0000ff;
   font-size: 10.0000pt;
   text-decoration:  underline;
 }
 
-.span105 {
+.span110 {
   font-family: 'Liberation Serif';
   font-size: 20.0000pt;
   font-style: normal;
   font-weight: bold;
 }
 
-.span104 {
+.span109 {
   color: #000080;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
@@ -742,7 +743,7 @@
   font-weight: normal;
 }
 
-.span159 {
+.span166 {
   color: #000080;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
@@ -751,7 +752,7 @@
   text-decoration:  underline;
 }
 
-.span103 {
+.span108 {
   color: #000000;
   font-effect: outline;
   font-family: 'Liberation Serif';
@@ -762,19 +763,14 @@
   text-shadow: 1px 1px 1px #666666;
 }
 
-.span102 {
+.span107 {
   color: #0000ff;
   font-family: 'Liberation Serif';
   font-size: 9.0000pt;
   text-decoration:  underline;
 }
 
-.span101 {
-  font-size: 9.0000pt;
-  font-style: italic;
-}
-
-.span148 {
+.span153 {
   color: #000000;
   font-effect: outline;
   font-style: normal;
@@ -783,7 +779,7 @@
   text-shadow: 1px 1px 1px #666666;
 }
 
-.span99 {
+.span106 {
   color: #000000;
   font-family: 'Liberation Serif';
   font-size: 0.58em;
@@ -792,9 +788,35 @@
   vertical-align: baseline;
 }
 
-.span98 {
+.span105 {
   font-family: 'Liberation Serif';
   font-size: 9.0000pt;
+}
+
+.span103 {
+  font-family: 'Liberation Serif';
+  font-size: 9.0000pt;
+  font-style: normal;
+}
+
+.span99 {
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.span98 {
+  background-color: transparent;
+  font-size: 12.0000pt;
+  font-weight: normal;
+}
+
+.span97 {
+  font-family: 'Liberation Serif';
+  font-size: 14.0000pt;
+  font-style: normal;
+  font-weight: bold;
 }
 
 .span40 {
@@ -820,7 +842,7 @@
   font-weight: normal;
 }
 
-.span129 {
+.span134 {
   background-color: transparent;
   color: #00000a;
   font-family: 'Liberation Serif';
@@ -837,12 +859,35 @@
   text-decoration:  underline;
 }
 
-.span96 {
+.span45 {
+  font-family: 'Liberation Serif';
+  font-style: italic;
+  font-weight: normal;
+}
+
+.span158 {
+  font-size: 10.0000pt;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.span7 {
+  color: #000000;
+  font-effect: outline;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-shadow: 1px 1px 1px #666666;
+}
+
+.span102 {
   color: #000000;
   font-family: 'Liberation Serif';
 }
 
-.span44 {
+.span46 {
   font-family: 'Times1';
   font-size: 12.0000pt;
 }
@@ -854,7 +899,7 @@
   font-weight: normal;
 }
 
-.span55 {
+.span62 {
   font-family: 'Liberation Serif';
   font-size: 10.0000pt;
   font-weight: normal;
@@ -869,34 +914,6 @@
   color: #000080;
   font-style: italic;
   text-decoration:  underline;
-}
-
-.span91 {
-  font-family: 'Liberation Serif';
-  font-size: 14.0000pt;
-  font-style: normal;
-  font-weight: bold;
-}
-
-.span100 {
-  font-family: 'Liberation Serif';
-  font-style: normal;
-}
-
-.span32 {
-  color: #000000;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: italic;
-  font-variant: normal;
-  font-weight: normal;
-  letter-spacing: normal;
-  text-transform: none;
-}
-
-.span27 {
-  color: #000000;
-  font-style: italic;
 }
 
 .span26 {
@@ -918,7 +935,19 @@
   font-weight: bold;
 }
 
-.span128 {
+.span161 {
+  background-color: transparent;
+  color: #000000;
+  font-family: 'Liberation Serif';
+  font-size: 10.0000pt;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.span133 {
   background-color: transparent;
   font-family: 'Liberation Serif';
   font-size: 14.0000pt;
@@ -928,17 +957,6 @@
 
 .span9 {
   font-size: 10.0000pt;
-}
-
-.span7 {
-  color: #000000;
-  font-effect: outline;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: normal;
-  font-weight: normal;
-  letter-spacing: normal;
-  text-shadow: 1px 1px 1px #666666;
 }
 
 .span33 {
@@ -966,7 +984,7 @@
   font-size: 12.0000pt;
 }
 
-.span86 {
+.span92 {
   background-color: transparent;
   font-size: 12.0000pt;
 }
@@ -977,14 +995,12 @@
   font-weight: bold;
 }
 
-.span121 {
-  font-style: italic;
-  font-weight: bold;
-}
-
-.span43 {
-  font-family: 'Liberation Serif';
+.span159 {
+  color: #000080;
+  font-size: 10.0000pt;
+  font-style: normal;
   font-weight: normal;
+  text-decoration:  underline;
 }
 
 .span0 {
@@ -993,7 +1009,38 @@
   font-weight: bold;
 }
 
-.span170 {
+.span32 {
+  color: #000000;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.span27 {
+  color: #000000;
+  font-style: italic;
+}
+
+.span43 {
+  font-family: 'Liberation Serif';
+  font-style: normal;
+}
+
+.span30 {
+  color: #ce181e;
+}
+
+.span69 {
+  background-color: #ffffff;
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+}
+
+.span177 {
   background-color: transparent;
   color: #000000;
   font-family: 'Liberation Serif';
@@ -1006,14 +1053,14 @@
   text-transform: none;
 }
 
-.span156 {
+.span163 {
   color: #000080;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   text-decoration:  underline;
 }
 
-.span68 {
+.span75 {
   background-color: #ffffff;
   font-family: 'Liberation Serif';
   font-size: 0.65em;
@@ -1022,18 +1069,18 @@
   vertical-align: baseline;
 }
 
-.span59 {
+.span66 {
   font-size: 12.0000pt;
   font-style: italic;
 }
 
-.span75 {
+.span82 {
   font-family: 'Liberation Serif';
   font-size: 10.0000pt;
   font-style: italic;
 }
 
-.span81 {
+.span87 {
   color: #000000;
   font-style: italic;
   text-decoration:  underline;
@@ -1051,7 +1098,7 @@
   font-weight: bold;
 }
 
-.span114 {
+.span119 {
   color: #000000;
   font-effect: outline;
   font-family: 'Liberation Serif';
@@ -1066,33 +1113,19 @@
 .span2 {
 }
 
-.span46 {
+.span101 {
+  color: #000000;
   font-family: 'Liberation Serif';
-  font-size: 0.58em;
-  position: relative;
-  top: -0.33em;
-  vertical-align: baseline;
-}
-
-.span20 {
-  color: #000080;
-  font-family: 'Liberation Serif';
-  font-size: 10.0000pt;
-  text-decoration:  underline;
-}
-
-.span37 {
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-}
-
-.span48 {
-  font-size: 12.0000pt;
+  font-size: 14.0000pt;
   font-style: italic;
+  font-weight: bold;
+}
+
+.span11 {
   font-weight: normal;
 }
 
-.span132 {
+.span137 {
   background-color: transparent;
   color: #00000a;
   font-family: 'Liberation Serif';
@@ -1101,7 +1134,7 @@
   font-weight: bold;
 }
 
-.span50 {
+.span55 {
   color: #ce181e;
   font-weight: bold;
 }
@@ -1113,32 +1146,25 @@
   text-decoration:  underline;
 }
 
-.span154 {
-  color: #000080;
-  font-style: normal;
-  font-weight: normal;
-  text-decoration:  underline;
-}
-
 .span36 {
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   font-style: italic;
 }
 
-.span65 {
+.span72 {
   background-color: #ffffff;
   font-family: 'Liberation Serif';
   font-size: 10.0000pt;
   font-style: italic;
 }
 
-.span79 {
+.span85 {
   font-family: 'Times New Roman';
   font-style: italic;
 }
 
-.span126 {
+.span131 {
   background-color: transparent;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
@@ -1146,7 +1172,7 @@
   font-weight: normal;
 }
 
-.span45 {
+.span47 {
   font-family: 'Times1';
   font-size: 14.0000pt;
 }
@@ -1160,7 +1186,7 @@
   font-weight: normal;
 }
 
-.span108 {
+.span113 {
   color: #0d1f63;
   font-size: 10.0000pt;
   text-decoration:  underline;
@@ -1191,13 +1217,73 @@
   font-size: 12.0000pt;
 }
 
-.span89 {
+.span95 {
   background-color: transparent;
   font-style: normal;
   font-weight: normal;
 }
 
-.span112 {
+.span20 {
+  color: #000080;
+  font-family: 'Liberation Serif';
+  font-size: 10.0000pt;
+  text-decoration:  underline;
+}
+
+.span50 {
+  font-family: 'Liberation Serif';
+  font-size: 0.58em;
+  position: relative;
+  top: -0.33em;
+  vertical-align: baseline;
+}
+
+.span37 {
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+}
+
+.span53 {
+  font-size: 12.0000pt;
+  font-style: italic;
+  font-weight: normal;
+}
+
+.span157 {
+  background-color: transparent;
+  font-style: italic;
+}
+
+.span49 {
+  font-family: 'Liberation Serif';
+  font-style: normal;
+  font-weight: normal;
+}
+
+.span6 {
+  font-style: italic;
+}
+
+.span51 {
+  font-family: 'Liberation Serif';
+  font-size: 12.0000pt;
+  font-style: normal;
+}
+
+.span156 {
+  background-color: transparent;
+}
+
+.span73 {
+  background-color: transparent;
+  font-family: 'Liberation Serif';
+  font-size: 0.64em;
+  position: relative;
+  top: -0.33em;
+  vertical-align: baseline;
+}
+
+.span117 {
   color: #000000;
   font-effect: outline;
   font-family: 'Liberation Serif';
@@ -1209,13 +1295,13 @@
   text-transform: none;
 }
 
-.span49 {
+.span54 {
   font-size: 12.0000pt;
   font-style: normal;
   font-weight: normal;
 }
 
-.span138 {
+.span143 {
   background-color: transparent;
   color: #000000;
   font-family: 'Liberation Serif';
@@ -1227,16 +1313,26 @@
   text-transform: none;
 }
 
-.span78 {
+.span84 {
   font-family: 'Times New Roman';
 }
 
-.span51 {
+.span44 {
+  font-family: 'Liberation Serif';
+  font-weight: normal;
+}
+
+.span56 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.span57 {
   font-size: 12.0000pt;
   font-weight: normal;
 }
 
-.span52 {
+.span58 {
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   font-style: italic;
@@ -1249,23 +1345,18 @@
   text-decoration:  underline;
 }
 
-.span53 {
+.span59 {
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   font-weight: normal;
 }
 
-.span30 {
-  color: #ce181e;
+.span61 {
+  font-size: 10.0000pt;
+  font-style: normal;
 }
 
-.span62 {
-  background-color: #ffffff;
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-}
-
-.span97 {
+.span104 {
   font-family: 'Liberation Serif';
   font-size: 9.0000pt;
   font-style: italic;
@@ -1275,21 +1366,21 @@
   font-weight: bold;
 }
 
-.span56 {
+.span63 {
   color: #000000;
   font-family: 'Liberation Serif';
   font-size: 16.0000pt;
   font-weight: bold;
 }
 
-.span153 {
+.span125 {
   font-family: 'Liberation Serif';
   font-size: 18.0000pt;
   font-style: normal;
   font-weight: bold;
 }
 
-.span113 {
+.span118 {
   background-color: #ffffff;
   color: #000000;
   font-effect: outline;
@@ -1302,43 +1393,43 @@
   text-transform: none;
 }
 
-.span57 {
+.span64 {
   font-family: 'Liberation Serif';
   font-size: 22.0000pt;
   font-weight: bold;
 }
 
-.span74 {
+.span81 {
   background-color: #ffffff;
   font-family: 'Liberation Serif';
   font-size: 10.0000pt;
   font-style: normal;
 }
 
-.span54 {
+.span60 {
   color: #0000ff;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   text-decoration:  underline;
 }
 
-.span58 {
+.span65 {
   font-weight: bold;
   text-decoration:  underline;
 }
 
-.span73 {
+.span80 {
   font-family: 'Liberation Serif';
   font-size: 10.0000pt;
   font-style: normal;
 }
 
-.span60 {
+.span67 {
   font-size: 12.0000pt;
   font-style: normal;
 }
 
-.span147 {
+.span152 {
   font-effect: outline;
   font-style: italic;
   font-weight: normal;
@@ -1346,7 +1437,12 @@
   text-shadow: 1px 1px 1px #666666;
 }
 
-.span61 {
+.span48 {
+  color: #000000;
+  font-style: normal;
+}
+
+.span68 {
   font-family: 'Liberation Serif';
   font-size: 11.0000pt;
   font-style: italic;
@@ -1357,20 +1453,20 @@
   font-style: italic;
 }
 
-.span63 {
+.span70 {
   background-color: #ffffff;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   font-style: italic;
 }
 
-.span47 {
+.span52 {
   font-size: 16.0000pt;
   font-style: italic;
   font-weight: normal;
 }
 
-.span67 {
+.span74 {
   background-color: #ffffff;
   font-family: 'Liberation Serif';
   font-size: 0.64em;
@@ -1379,30 +1475,7 @@
   vertical-align: baseline;
 }
 
-.span151 {
-  background-color: transparent;
-}
-
-.span66 {
-  background-color: transparent;
-  font-family: 'Liberation Serif';
-  font-size: 0.64em;
-  position: relative;
-  top: -0.33em;
-  vertical-align: baseline;
-}
-
-.span6 {
-  font-style: italic;
-}
-
-.span85 {
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: normal;
-}
-
-.span137 {
+.span142 {
   background-color: transparent;
   color: #000000;
   font-family: 'Liberation Serif';
@@ -1414,13 +1487,13 @@
   text-transform: none;
 }
 
-.span69 {
+.span76 {
   background-color: #ffffff;
   font-family: 'Liberation Sans';
   font-size: 10.0000pt;
 }
 
-.span133 {
+.span138 {
   background-color: transparent;
   color: #000000;
   font-family: 'Liberation Serif';
@@ -1429,7 +1502,7 @@
   font-weight: normal;
 }
 
-.span106 {
+.span111 {
   font-family: 'Liberation Serif';
   font-size: 14.0000pt;
   font-style: italic;
@@ -1445,21 +1518,21 @@
   letter-spacing: normal;
 }
 
-.span70 {
+.span77 {
   background-color: #ffffff;
   font-family: 'Liberation Sans';
   font-size: 10.0000pt;
   font-style: italic;
 }
 
-.span71 {
+.span78 {
   background-color: #ffffff;
   color: #ff0000;
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
 }
 
-.span72 {
+.span79 {
   background-color: #ffffff;
   font-family: 'Liberation Serif';
   font-size: 0.64em;
@@ -1468,32 +1541,27 @@
   vertical-align: baseline;
 }
 
-.span76 {
-  font-size: 10.0000pt;
-  font-style: normal;
-}
-
-.span94 {
+.span100 {
   color: #000000;
   font-family: 'Liberation Serif';
   font-style: italic;
 }
 
-.span77 {
+.span83 {
   color: #000000;
   font-family: 'Liberation Serif';
   font-size: 14.0000pt;
   font-weight: bold;
 }
 
-.span163 {
+.span170 {
   color: #000080;
   font-family: 'Times new roman';
   font-size: 11.0000pt;
   text-decoration:  underline;
 }
 
-.span80 {
+.span86 {
   font-family: 'Liberation Serif';
   font-weight: 250;
 }
@@ -1502,14 +1570,19 @@
   font-style: normal;
 }
 
-.span64 {
+.span71 {
   background-color: #ffffff;
   font-family: 'Liberation Serif';
   font-size: 10.0000pt;
 }
 
-.span83 {
+.span89 {
   font-size: 9.0000pt;
+}
+
+.span90 {
+  font-size: 9.0000pt;
+  font-style: italic;
 }
 
 .span34 {
@@ -1522,26 +1595,20 @@
   text-transform: none;
 }
 
-.span84 {
+.span91 {
   font-family: 'Liberation Serif';
   font-size: 12.0000pt;
   font-style: normal;
   font-weight: bold;
 }
 
-.span92 {
-  background-color: transparent;
-  font-size: 12.0000pt;
-  font-weight: normal;
-}
-
-.span164 {
+.span171 {
   font-family: 'Times new roman';
   font-size: 12.0000pt;
   font-weight: normal;
 }
 
-.span141 {
+.span146 {
   background-color: transparent;
   color: #000000;
   font-family: 'Liberation Serif';
@@ -1553,47 +1620,28 @@
   text-transform: none;
 }
 
-.span87 {
+.span93 {
   background-color: transparent;
   font-size: 12.0000pt;
   font-style: normal;
   font-weight: normal;
 }
 
-.span82 {
+.span88 {
   color: #000080;
   font-family: 'Liberation Serif';
   font-style: italic;
   text-decoration:  underline;
 }
 
-.span88 {
+.span94 {
   font-style: normal;
   font-weight: normal;
 }
 
-.span90 {
+.span96 {
   background-color: transparent;
   font-size: 10.0000pt;
-}
-
-.span93 {
-  font-family: 'Liberation Serif';
-  font-size: 12.0000pt;
-  font-style: normal;
-  font-weight: normal;
-}
-
-.span11 {
-  font-weight: normal;
-}
-
-.span95 {
-  color: #000000;
-  font-family: 'Liberation Serif';
-  font-size: 14.0000pt;
-  font-style: italic;
-  font-weight: bold;
 }
 
 .body0 {
