@@ -96,13 +96,13 @@ def split_sections():
 
                     # 2. write previous content to file
                     path = Path(
-                        "src/EPUB/new_sections/sections%s.xhtml"
+                        "src/EPUB/new_sections/section%s.xhtml"
                         % str(sec_index).rjust(4, "0")
                     )
                     path.touch()
                     print(
                         "WRITE TO FILE",
-                        "src/EPUB/new_sections/sections%s.xhtml"
+                        "src/EPUB/new_sections/section%s.xhtml"
                         % str(sec_index).rjust(4, "0"),
                     )
                     with path.open("w") as f:
@@ -129,6 +129,36 @@ def write_content():
     with fcontent.open() as f:
         content = f.read()
 
+    parser = etree.XMLParser(ns_clean=True, recover=True, encoding="utf-8")
+    root = etree.fromstring(content.encode("utf-8"), parser=parser)
+    for child in root.getchildren():
+
+        if child.tag.rpartition("}")[2] == 'manifest':
+            all_sections = set(p.name for p in Path("src/EPUB/sections/").glob("section*.xhtml"))
+            for item in child.getchildren():
+                sid = item.attrib['id']
+                all_sections -= set([sid+".xhtml"])
+            for missing_sec in all_sections:
+                item = etree.Element("item")
+                path = Path(missing_sec)
+                item.attrib['href'] = "sections/" + path.name
+                item.attrib['id'] = path.name.split(".")[0]
+                item.attrib["media-type"] = "application/xhtml+xml"
+                child.append(item)
+
+        elif child.tag.rpartition("}")[2] == 'spine':
+            all_sections = set(p.name.split(".")[0] for p in Path("src/EPUB/sections/").glob("section*.xhtml"))
+            for itemref in child.getchildren():
+                idref = itemref.attrib['idref']
+                all_sections -= set([idref])
+            for missing_ref in sorted(list(all_sections)):
+                itemref = etree.Element("itemref")
+                path = Path(missing_ref)
+                itemref.attrib['idref'] = path.name.split(".")[0]
+                child.append(itemref)
+
+    with fcontent.open("w") as f:
+        f.write(etree.tostring(root, encoding="utf-8", pretty_print=True).decode())
 
 if __name__ == "__main__":
     split_sections()
