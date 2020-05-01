@@ -4,7 +4,7 @@ from pathlib import Path
 from lxml import etree
 
 # where we want to cut in sections
-CLASS_SECTION = "span5"
+CLASS_SECTION = ["para14", "para26"]
 DEFAULT_CONTENT = """<?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -18,7 +18,6 @@ DEFAULT_CONTENT = """<?xml version="1.0" encoding="utf-8"?>
 </html>
 """
 
-
 def get_body(content):
     parser = etree.XMLParser(ns_clean=True, recover=True, encoding="utf-8")
     root = etree.fromstring(content.encode("utf-8"), parser=parser)
@@ -31,22 +30,26 @@ def get_body(content):
 def find_footnote(node):
     for key, val in node.attrib.items():
         if key.rpartition("}")[2] == "type" and val == "noteref":
+            # print("FOUND FOOTNOTE", node.attrib["href"], node.text)
             yield node.attrib["href"]
     for child in node.getchildren():
         yield from find_footnote(child)
 
 
 def insert_footnotes(footnote_ids, from_body, to_body):
+    found = []
     # find all footnotes and insert them at the end of the new body
     for child in from_body.getchildren():
-        # if child.tag.rpartition("}")[2] != 'p':
-        # print(child.tag.rpartition("}")[2], child.attrib.get("id"))
         if (
             child.tag.rpartition("}")[2] == "aside"
             and "#" + child.attrib.get("id") in footnote_ids
         ):
             to_body.append(child)
-
+            found.append("#" + child.attrib.get("id"))
+    missing = set(footnote_ids) - set(found)
+    if missing:
+        print("!! MISSING FOOTNOTES !!", missing)
+    return found
 
 def split_sections():
     new_section, new_body = get_body(DEFAULT_CONTENT)
@@ -59,10 +62,12 @@ def split_sections():
         new_sections.mkdir()
 
     for filename in sorted(Path("src/EPUB/sections/").glob("section*.xhtml")):
+        print("READING", filename)
         with filename.open() as f:
             fcontent = f.read()
         _, body = get_body(fcontent)
         pindex = -1
+
         for p in body.getchildren():
             pindex += 1
 
@@ -77,56 +82,41 @@ def split_sections():
                     sec_footnotes.append(footnote)
                 continue
 
-            # create new clone element
-            new_p = etree.Element("p")
-            # copy paragraph class
-            for key, value in p.items():
-                new_p.set(key, value)
-            new_body.insert(pindex, new_p)
-            sindex = -1
-            for span in p.getchildren():
-                sindex += 1
+            if p.attrib.get("class") in CLASS_SECTION:
+                # break the document marker
 
-                if span.tag.rpartition("}")[2] != "span":
-                    new_p.insert(sindex, span)
-                    for footnote in find_footnote(span):
-                        sec_footnotes.append(footnote)
-                    continue
+                # 1. retrieve all the footnotes
+                insert_footnotes(sec_footnotes, body, new_body)
 
-                if span.attrib.get("class") == CLASS_SECTION:
-                    # break the document marker
+                # 2. write previous content to file
+                path = Path(
+                    "src/EPUB/new_sections/section%s.xhtml"
+                    % str(sec_index).rjust(4, "0")
+                )
+                path.touch()
+                print(
+                    "WRITE TO FILE",
+                    "src/EPUB/new_sections/section%s.xhtml"
+                    % str(sec_index).rjust(4, "0"),
+                )
+                with path.open("w") as f:
+                    # save everything computed so far
+                    f.write(etree.tostring(new_section, encoding="utf-8").decode())
 
-                    # 1. retrieve all the footnotes
-                    insert_footnotes(sec_footnotes, body, new_body)
+                # 3. generate new section
+                new_section, new_body = get_body(DEFAULT_CONTENT)
+                sec_index += 1  # increase filename
+                pindex = 0
+                sec_footnotes = []
 
-                    # 2. write previous content to file
-                    path = Path(
-                        "src/EPUB/new_sections/section%s.xhtml"
-                        % str(sec_index).rjust(4, "0")
-                    )
-                    path.touch()
-                    print(
-                        "WRITE TO FILE",
-                        "src/EPUB/new_sections/section%s.xhtml"
-                        % str(sec_index).rjust(4, "0"),
-                    )
-                    with path.open("w") as f:
-                        # save everything computed so far
-                        f.write(etree.tostring(new_section, encoding="utf-8").decode())
+            new_body.insert(pindex, p)
+            for footnote in find_footnote(p):
+                sec_footnotes.append(footnote)
 
-                    # 3. generate new section
-                    new_section, new_body = get_body(DEFAULT_CONTENT)
-                    sec_index += 1  # increase filename
-                    pindex, sindex = 0, 0
-                    sec_footnotes = []
-                    new_body.insert(pindex, new_p)
-
-                new_p.insert(sindex, span)
-                for footnote in find_footnote(span):
-                    sec_footnotes.append(footnote)
-
-        print("END OF FILE", filename)
-        insert_footnotes(sec_footnotes, body, new_body)
+        print("END OF FILE", filename, "searching for footnotes", sec_footnotes)
+        found = insert_footnotes(sec_footnotes, body, new_body)
+        # should be empty
+        sec_footnotes = list(set(sec_footnotes) - set(found))
 
     old_sections = Path("src/EPUB/sections")
     old_sections.rename("src/EPUB/old_sections")
