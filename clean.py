@@ -53,6 +53,11 @@ def split_sections():
     sec_index = 1
     sec_footnotes = []
 
+    # ensure target folder exists
+    new_sections = Path("src/EPUB/new_sections")
+    if not new_sections.exists():
+        new_sections.mkdir()
+
     for filename in sorted(Path("src/EPUB/sections/").glob("section*.xhtml")):
         with filename.open() as f:
             fcontent = f.read()
@@ -122,6 +127,10 @@ def split_sections():
 
         print("END OF FILE", filename)
         insert_footnotes(sec_footnotes, body, new_body)
+
+    old_sections = Path("src/EPUB/sections")
+    old_sections.rename("src/EPUB/old_sections")
+    new_sections.rename("src/EPUB/sections")
 
 
 def write_content():
