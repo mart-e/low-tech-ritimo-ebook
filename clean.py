@@ -72,11 +72,18 @@ def split_sections():
     sec_index = 1
     sec_footnotes = []
     section_titles = []
+    section_title = "Introduction"
 
     # ensure target folder exists
     new_sections = Path("src/EPUB/new_sections")
     if not new_sections.exists():
         new_sections.mkdir()
+        psrc = Path("src/EPUB/sections/cover.xhtml")
+        pdst = Path("src/EPUB/new_sections/cover.xhtml")
+        pdst.touch()
+        with psrc.open() as src:
+            with pdst.open("w") as dst:
+                dst.write(src.read())
 
     for filename in sorted(Path("src/EPUB/sections/").glob("section*.xhtml")):
         print("READING", filename)
@@ -104,10 +111,17 @@ def split_sections():
 
                 # 1. add section title to the list of sections
                 section_titles.append(
+                    (
+                        section_title,
+                        "sections/section%s.xhtml" % str(sec_index).rjust(4, "0"),
+                    )
+                )
+                section_title = " ".join(
                     etree.tostring(p, method="text", encoding="utf-8")
                     .decode()
                     .replace("\n", "")
                     .strip()
+                    .split()
                 )
 
                 # 2. retrieve all the footnotes
@@ -204,12 +218,12 @@ def generate_toc(titles):
     ol = nav.getchildren()[0]
 
     title_index = 0  # to determine filename
-    for title in titles:
+    for title, href in titles:
         title_index += 1
 
         new_li = etree.Element("li")
         new_a = etree.Element("a")
-        new_a.attrib["href"] = "sections/section%s.xhtml" % str(title_index).rjust(4, "0")
+        new_a.attrib["href"] = href
         new_a.text = title
         new_li.append(new_a)
         ol.append(new_li)
