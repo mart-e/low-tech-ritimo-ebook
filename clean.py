@@ -17,6 +17,21 @@ DEFAULT_CONTENT = """<?xml version="1.0" encoding="utf-8"?>
   </body>
 </html>
 """
+DEFAULT_TOC = """<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops">
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <nav epub:type="toc">
+      <ol>
+      </ol>
+    </nav>
+  </body>
+</html>
+"""
+
 
 def get_body(content):
     parser = etree.XMLParser(ns_clean=True, recover=True, encoding="utf-8")
@@ -51,10 +66,12 @@ def insert_footnotes(footnote_ids, from_body, to_body):
         print("!! MISSING FOOTNOTES !!", missing)
     return found
 
+
 def split_sections():
     new_section, new_body = get_body(DEFAULT_CONTENT)
     sec_index = 1
     sec_footnotes = []
+    section_titles = []
 
     # ensure target folder exists
     new_sections = Path("src/EPUB/new_sections")
@@ -85,10 +102,18 @@ def split_sections():
             if p.attrib.get("class") in CLASS_SECTION:
                 # break the document marker
 
-                # 1. retrieve all the footnotes
+                # 1. add section title to the list of sections
+                section_titles.append(
+                    etree.tostring(p, method="text", encoding="utf-8")
+                    .decode()
+                    .replace("\n", "")
+                    .strip()
+                )
+
+                # 2. retrieve all the footnotes
                 insert_footnotes(sec_footnotes, body, new_body)
 
-                # 2. write previous content to file
+                # 3. write previous content to file
                 path = Path(
                     "src/EPUB/new_sections/section%s.xhtml"
                     % str(sec_index).rjust(4, "0")
@@ -103,7 +128,7 @@ def split_sections():
                     # save everything computed so far
                     f.write(etree.tostring(new_section, encoding="utf-8").decode())
 
-                # 3. generate new section
+                # 4. generate new section
                 new_section, new_body = get_body(DEFAULT_CONTENT)
                 sec_index += 1  # increase filename
                 pindex = 0
@@ -122,6 +147,8 @@ def split_sections():
     old_sections.rename("src/EPUB/old_sections")
     new_sections.rename("src/EPUB/sections")
 
+    return section_titles
+
 
 def write_content():
     fcontent = Path("src/EPUB/content.opf")
@@ -132,33 +159,67 @@ def write_content():
     root = etree.fromstring(content.encode("utf-8"), parser=parser)
     for child in root.getchildren():
 
-        if child.tag.rpartition("}")[2] == 'manifest':
-            all_sections = set(p.name for p in Path("src/EPUB/sections/").glob("section*.xhtml"))
+        if child.tag.rpartition("}")[2] == "manifest":
+            all_sections = set(
+                p.name for p in Path("src/EPUB/sections/").glob("section*.xhtml")
+            )
             for item in child.getchildren():
-                sid = item.attrib['id']
-                all_sections -= set([sid+".xhtml"])
+                sid = item.attrib["id"]
+                all_sections -= set([sid + ".xhtml"])
             for missing_sec in all_sections:
                 item = etree.Element("item")
                 path = Path(missing_sec)
-                item.attrib['href'] = "sections/" + path.name
-                item.attrib['id'] = path.name.split(".")[0]
+                item.attrib["href"] = "sections/" + path.name
+                item.attrib["id"] = path.name.split(".")[0]
                 item.attrib["media-type"] = "application/xhtml+xml"
                 child.append(item)
 
-        elif child.tag.rpartition("}")[2] == 'spine':
-            all_sections = set(p.name.split(".")[0] for p in Path("src/EPUB/sections/").glob("section*.xhtml"))
+        elif child.tag.rpartition("}")[2] == "spine":
+            all_sections = set(
+                p.name.split(".")[0]
+                for p in Path("src/EPUB/sections/").glob("section*.xhtml")
+            )
             for itemref in child.getchildren():
-                idref = itemref.attrib['idref']
+                idref = itemref.attrib["idref"]
                 all_sections -= set([idref])
             for missing_ref in sorted(list(all_sections)):
                 itemref = etree.Element("itemref")
                 path = Path(missing_ref)
-                itemref.attrib['idref'] = path.name.split(".")[0]
+                itemref.attrib["idref"] = path.name.split(".")[0]
                 child.append(itemref)
 
     with fcontent.open("w") as f:
         f.write(etree.tostring(root, encoding="utf-8", pretty_print=True).decode())
 
+
+def generate_toc(titles):
+    # fcontent = Path("src/EPUB/toc.xhtml")
+    # with fcontent.open() as f:
+    #     content = f.read()
+    content = DEFAULT_TOC
+    parser = etree.XMLParser(ns_clean=True, recover=True, encoding="utf-8")
+    root = etree.fromstring(content.encode("utf-8"), parser=parser)
+    body = root.getchildren()[1]
+    nav = body.getchildren()[0]
+    ol = nav.getchildren()[0]
+
+    title_index = 0  # to determine filename
+    for title in titles:
+        title_index += 1
+
+        new_li = etree.Element("li")
+        new_a = etree.Element("a")
+        new_a.attrib["href"] = "sections/section%s.xhtml" % str(title_index).rjust(4, "0")
+        new_a.text = title
+        new_li.append(new_a)
+        ol.append(new_li)
+
+    fcontent = Path("src/EPUB/toc.xhtml")
+    with fcontent.open("w") as f:
+        f.write(etree.tostring(root, encoding="utf-8", pretty_print=True).decode())
+
+
 if __name__ == "__main__":
-    split_sections()
+    titles = split_sections()
     write_content()
+    generate_toc(titles)
