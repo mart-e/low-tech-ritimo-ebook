@@ -90,10 +90,8 @@ def split_sections():
         with filename.open() as f:
             fcontent = f.read()
         _, body = get_body(fcontent)
-        pindex = -1
 
         for p in body.getchildren():
-            pindex += 1
 
             if p.tag.rpartition("}")[2] == "aside":
                 # aside is for footnote, handled individually
@@ -101,7 +99,7 @@ def split_sections():
 
             if p.tag.rpartition("}")[2] != "p":
                 # not a tag, blindy copy it and move to next
-                new_body.insert(pindex, p)
+                new_body.append(p)
                 for footnote in find_footnote(p):
                     sec_footnotes.append(footnote)
                 continue
@@ -145,10 +143,9 @@ def split_sections():
                 # 4. generate new section
                 new_section, new_body = get_body(DEFAULT_CONTENT)
                 sec_index += 1  # increase filename
-                pindex = 0
                 sec_footnotes = []
 
-            new_body.insert(pindex, p)
+            new_body.append(p)
             for footnote in find_footnote(p):
                 sec_footnotes.append(footnote)
 
@@ -156,6 +153,33 @@ def split_sections():
         found = insert_footnotes(sec_footnotes, body, new_body)
         # should be empty
         sec_footnotes = list(set(sec_footnotes) - set(found))
+
+    # write remaining content to file
+    # 1. add section title to the list of sections
+    section_titles.append(
+        (section_title, "sections/section%s.xhtml" % str(sec_index).rjust(4, "0"),)
+    )
+    section_title = " ".join(
+        etree.tostring(p, method="text", encoding="utf-8")
+        .decode()
+        .replace("\n", "")
+        .strip()
+        .split()
+    )
+
+    # 2. retrieve all the footnotes
+    insert_footnotes(sec_footnotes, body, new_body)
+
+    # 3. write previous content to file
+    path = Path("src/EPUB/new_sections/section%s.xhtml" % str(sec_index).rjust(4, "0"))
+    path.touch()
+    print(
+        "WRITE TO FILE",
+        "src/EPUB/new_sections/section%s.xhtml" % str(sec_index).rjust(4, "0"),
+    )
+    with path.open("w") as f:
+        # save everything computed so far
+        f.write(etree.tostring(new_section, encoding="utf-8").decode())
 
     old_sections = Path("src/EPUB/sections")
     old_sections.rename("src/EPUB/old_sections")
