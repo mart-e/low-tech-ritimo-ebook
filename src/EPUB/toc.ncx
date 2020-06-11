@@ -1,112 +1,261 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
-    <head>
-        <meta content="" name="" scheme=""/>
-    </head>
-    <docTitle>
-        <text/>
-    </docTitle>
-    <navMap>
-        <navPoint class="document" id="section1" playOrder="1">
-            <navLabel>
-                <text>La collection Passerelle</text>
-            </navLabel>
-            <content src="sections/section0001.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section2" playOrder="2">
-            <navLabel>
-                <text>PARTIE I : DES ENJEUX SOCIAUX</text>
-            </navLabel>
-            <content src="sections/section0002.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section3" playOrder="3">
-            <navLabel>
-                <text>L’automate et le tâcheron</text>
-            </navLabel>
-            <content src="sections/section0003.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section3-1" playOrder="4">
-            <navLabel>
-                <text>Les réalités occultées du « progrès » technique : inégalités et désastres socio-écologiques</text>
-            </navLabel>
-            <content src="sections/section0003-1.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section4" playOrder="5">
-            <navLabel>
-                <text>L’Atelier Paysan : produire des technologies appropriées au service de l’agroécologie paysanne</text>
-            </navLabel>
-            <content src="sections/section0004.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section5" playOrder="6">
-            <navLabel>
-                <text>Consommation énergétique et cycle de vie des objets numériques : quels impacts environnementaux ?</text>
-            </navLabel>
-            <content src="sections/section0005.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section6" playOrder="7">
-            <navLabel>
-                <text>Numérique, transition énergétique et infrastructures low tech</text>
-            </navLabel>
-            <content src="sections/section0006.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section7" playOrder="8">
-            <navLabel>
-                <text>Au-delà du low tech : technologies zombies, soutenabilité et inventions</text>
-            </navLabel>
-            <content src="sections/section0007.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section8" playOrder="9">
-            <navLabel>
-                <text>Le Parti communiste chinois face à l’Anthropocène : quelles ambitions internationales ?</text>
-            </navLabel>
-            <content src="sections/section0008.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section9" playOrder="10">
-            <navLabel>
-                <text>Low </text>
-            </navLabel>
-            <content src="sections/section0009.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section10" playOrder="11">
-            <navLabel>
-                <text>L’enjeu de «  la bataille du Libre  »</text>
-            </navLabel>
-            <content src="sections/section0010.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section11" playOrder="12">
-            <navLabel>
-                <text>Combattre le capitalisme identitaire</text>
-            </navLabel>
-            <content src="sections/section0011.xhtml"/></navPoint>
-        <navPoint class="document" id="section12" playOrder="13">
-            <navLabel>
-                <text>B</text>
-            </navLabel>
-            <content src="sections/section0012.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section13" playOrder="14">
-            <navLabel>
-                <text>We Steal Secrets : l’histoire de Wikileaks Documentaire d’Alex Gibney, 2013, 130 min : L’histoire de la création du site WikiLeaks par Julian Assange, qui a constitué la faille la plus importante dans l&apos;histoire de la sécurité états-unienne.</text>
-            </navLabel>
-            <content src="sections/section0013.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section14" playOrder="15">
-            <navLabel>
-                <text>Black Mirror Série télévisée dirigée par Charlie Brooker, 2011 sur Channel 4 (Royaume-Uni) puis 2016 sur Netflix : Chaque épisode relate une histoire différente, mais avec pour thème commun et central celui de la technologie dystopique. La dimension d’humour noir et grinçant envisage un futur (de plus en plus) proche dans lequel les nouvelles technologies auraient envahi nos vies. La série interroge sur les interactions technologie-société humaine (psychologie, relations sociales). </text>
-            </navLabel>
-            <content src="sections/section0014.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section15" playOrder="16">
-            <navLabel>
-                <text>Mr. Robot Série dirigée par Sam Esmail, 2015-2019 sur USA Network : Elliot est un brillant jeune technicien en sécurité informatique et hackeur professionnel en prise à la dépression et la paranoïa. Lorsqu’il rencontre « M. Robot », un mystérieux anarchiste qui le recrute dans un groupe clandestin de hackeurs, il endosse le rôle de cyber-justicier et commence à combattre les institutions sociales corrompues : banques, entreprises privées, etc. et même celle pour qui travaille Elliot. </text>
-            </navLabel>
-            <content src="sections/section0015.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section16" playOrder="17">
-            <navLabel>
-                <text>LES DERNIERS NUMÉROS DE LA COLLECTION PASSERELLE</text>
-            </navLabel>
-            <content src="sections/section0016.xhtml"/>
-        </navPoint>
-    </navMap>
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="fr">
+  <head>
+    <meta content="978-2-914180-8-70" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (4.17.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Low tech: face au tout-numérique, se réapproprier les technologies</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="sections/section0001.xhtml"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Partie I : DES ENJEUX SOCIAUX</text>
+      </navLabel>
+      <content src="sections/section0002.xhtml#toc_2"/>
+      <navPoint id="num_3" playOrder="3">
+        <navLabel>
+          <text>Dématérialisation des services publics : nouvelle forme d'exclusion ?</text>
+        </navLabel>
+        <content src="sections/section0002.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_4" playOrder="4">
+        <navLabel>
+          <text>L’automate et le tâcheron</text>
+        </navLabel>
+        <content src="sections/section0003.xhtml"/>
+      </navPoint>
+      <navPoint id="num_5" playOrder="5">
+        <navLabel>
+          <text>Les réalités occultées du « progrès » technique : inégalités et désastres socio-écologiques</text>
+        </navLabel>
+        <content src="sections/section0003-1.xhtml"/>
+      </navPoint>
+      <navPoint id="num_6" playOrder="6">
+        <navLabel>
+          <text>La déconnexion aux technologies de communication</text>
+        </navLabel>
+        <content src="sections/section0004.xhtml"/>
+      </navPoint>
+      <navPoint id="num_7" playOrder="7">
+        <navLabel>
+          <text>Écrans et enfants : un phénomène de pollution mentale</text>
+        </navLabel>
+        <content src="sections/section0005.xhtml"/>
+      </navPoint>
+      <navPoint id="num_8" playOrder="8">
+        <navLabel>
+          <text>Se défaire de nos habitudes de confort numérique</text>
+        </navLabel>
+        <content src="sections/section0006.xhtml"/>
+      </navPoint>
+      <navPoint id="num_9" playOrder="9">
+        <navLabel>
+          <text>L’omniprésence du numérique dans notre organisation sociale</text>
+        </navLabel>
+        <content src="sections/section0007.xhtml"/>
+      </navPoint>
+      <navPoint id="num_10" playOrder="10">
+        <navLabel>
+          <text>L’Atelier Paysan : produire des technologies appropriées au service de l’agroécologie paysanne</text>
+        </navLabel>
+        <content src="sections/section0008.xhtml"/>
+      </navPoint>
+      <navPoint id="num_11" playOrder="11">
+        <navLabel>
+          <text>L’arnaque des algorithmes d’aide à la prise de décision</text>
+        </navLabel>
+        <content src="sections/section0009.xhtml"/>
+      </navPoint>
+      <navPoint id="num_12" playOrder="12">
+        <navLabel>
+          <text>Les algorithmes, « armes de destruction mathématiques »</text>
+        </navLabel>
+        <content src="sections/section0010.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_13" playOrder="13">
+      <navLabel>
+        <text>PARTIE II : DES ENJEUX ENVIRONNEMENTAUX</text>
+      </navLabel>
+      <content src="sections/section0011.xhtml#toc_1"/>
+      <navPoint id="num_14" playOrder="14">
+        <navLabel>
+          <text>Le Numérique, outil ou handicap pour la transition énergétique ?</text>
+        </navLabel>
+        <content src="sections/section0011.xhtml"/>
+      </navPoint>
+      <navPoint id="num_15" playOrder="15">
+        <navLabel>
+          <text>Technocritique et écologie : les années 1970</text>
+        </navLabel>
+        <content src="sections/section0012.xhtml"/>
+      </navPoint>
+      <navPoint id="num_16" playOrder="16">
+        <navLabel>
+          <text>Consommation énergétique et cycle de vie des objets numériques : quels impacts environnementaux ?</text>
+        </navLabel>
+        <content src="sections/section0013.xhtml"/>
+      </navPoint>
+      <navPoint id="num_17" playOrder="17">
+        <navLabel>
+          <text>Défaire l’industrie. Blocage et recyclage, pour un monde habitable</text>
+        </navLabel>
+        <content src="sections/section0013.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_18" playOrder="18">
+        <navLabel>
+          <text>Numérique, transition énergétique et infrastructures low tech</text>
+        </navLabel>
+        <content src="sections/section0014.xhtml"/>
+      </navPoint>
+      <navPoint id="num_19" playOrder="19">
+        <navLabel>
+          <text>Enercoop, un modèle énergétique citoyen</text>
+        </navLabel>
+        <content src="sections/section0015.xhtml"/>
+      </navPoint>
+      <navPoint id="num_20" playOrder="20">
+        <navLabel>
+          <text>Sauver les ordinateurs, sauver Internet</text>
+        </navLabel>
+        <content src="sections/section0016.xhtml"/>
+      </navPoint>
+      <navPoint id="num_21" playOrder="21">
+        <navLabel>
+          <text>Au-delà du low tech : technologies zombies, soutenabilité et inventions</text>
+        </navLabel>
+        <content src="sections/section0017.xhtml"/>
+      </navPoint>
+      <navPoint id="num_22" playOrder="22">
+        <navLabel>
+          <text>A Cusco, des low tech qui ne disent pas leur nom</text>
+        </navLabel>
+        <content src="sections/section0018.xhtml"/>
+      </navPoint>
+      <navPoint id="num_23" playOrder="23">
+        <navLabel>
+          <text>Le Parti communiste chinois face à l’Anthropocène : quelles ambitions internationales ?</text>
+        </navLabel>
+        <content src="sections/section0019.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_24" playOrder="24">
+      <navLabel>
+        <text>PARTIE III – DES ENJEUX POLITIQUES</text>
+      </navLabel>
+      <content src="sections/section0020.xhtml"/>
+      <navPoint id="num_25" playOrder="25">
+        <navLabel>
+          <text>Hackerspaces : récupérer, se réapproprier, démocratiser les technologies numériques</text>
+        </navLabel>
+        <content src="sections/section0021.xhtml"/>
+      </navPoint>
+      <navPoint id="num_26" playOrder="26">
+        <navLabel>
+          <text>Souveraineté technologique, de quoi parle-t-on ?</text>
+        </navLabel>
+        <content src="sections/section0021.xhtml#toc_1"/>
+      </navPoint>
+      <navPoint id="num_27" playOrder="27">
+        <navLabel>
+          <text>Comment l’activisme numérique favorise les réactionnaires</text>
+        </navLabel>
+        <content src="sections/section0022.xhtml"/>
+      </navPoint>
+      <navPoint id="num_28" playOrder="28">
+        <navLabel>
+          <text>Low tech, logiciels libres et Open Source : quelles synergies à développer ?</text>
+        </navLabel>
+        <content src="sections/section0023.xhtml"/>
+      </navPoint>
+      <navPoint id="num_29" playOrder="29">
+        <navLabel>
+          <text>L’enjeu de « la bataille du Libre » : réhabiliter les communs</text>
+        </navLabel>
+        <content src="sections/section0024.xhtml"/>
+      </navPoint>
+      <navPoint id="num_30" playOrder="30">
+        <navLabel>
+          <text>Combattre le capitalisme identitaire</text>
+        </navLabel>
+        <content src="sections/section0025.xhtml"/>
+      </navPoint>
+      <navPoint id="num_31" playOrder="31">
+        <navLabel>
+          <text>Face au capitalisme de surveillance : quelles alternatives aux géants du numérique ?</text>
+        </navLabel>
+        <content src="sections/section0026.xhtml"/>
+      </navPoint>
+      <navPoint id="num_32" playOrder="32">
+        <navLabel>
+          <text>Low tech, le portail migrant·es ?</text>
+        </navLabel>
+        <content src="sections/section0027.xhtml"/>
+      </navPoint>
+      <navPoint id="num_33" playOrder="33">
+        <navLabel>
+          <text>Les low tech avec les réfugié·es : une histoire d’autonomie et de résilience</text>
+        </navLabel>
+        <content src="sections/section0028.xhtml"/>
+      </navPoint>
+      <navPoint id="num_34" playOrder="34">
+        <navLabel>
+          <text>Les femmes et l’informatique : histoire d’une exclusion, enjeux de la réappropriation</text>
+        </navLabel>
+        <content src="sections/section0029.xhtml"/>
+      </navPoint>
+      <navPoint id="num_35" playOrder="35">
+        <navLabel>
+          <text>Créer nos propres insfrastructures féministes</text>
+        </navLabel>
+        <content src="sections/section0030.xhtml"/>
+      </navPoint>
+      <navPoint id="num_36" playOrder="36">
+        <navLabel>
+          <text>Quelles technologies pour quels futurs ? Se réapproprier les imaginaires avec les ateliers de l’Antémonde</text>
+        </navLabel>
+        <content src="sections/section0031.xhtml"/>
+      </navPoint>
+      <navPoint id="num_37" playOrder="37">
+        <navLabel>
+          <text>La Ğ1, une monnaie libre, auto-gérée et sobre énergétiquement</text>
+        </navLabel>
+        <content src="sections/section0032.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_38" playOrder="38">
+      <navLabel>
+        <text>En guise de conclusion : Une technologie au service de la vie</text>
+      </navLabel>
+      <content src="sections/section0033.xhtml"/>
+    </navPoint>
+    <navPoint id="num_39" playOrder="39">
+      <navLabel>
+        <text>BIBLIOGRAPHIE</text>
+      </navLabel>
+      <content src="sections/section0034.xhtml"/>
+    </navPoint>
+    <navPoint id="num_40" playOrder="40">
+      <navLabel>
+        <text>SITOGRAPHIE</text>
+      </navLabel>
+      <content src="sections/section0035.xhtml"/>
+    </navPoint>
+    <navPoint id="num_41" playOrder="41">
+      <navLabel>
+        <text>FILMOGRAPHIE SÉLECTIVE</text>
+      </navLabel>
+      <content src="sections/section0036.xhtml"/>
+    </navPoint>
+  </navMap>
 </ncx>

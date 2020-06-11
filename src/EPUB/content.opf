@@ -1,12 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
 <package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" unique-identifier="unique-identifier" version="3.0">
     <metadata>
-        <dc:identifier id="unique-identifier">978-2-914180-8-70</dc:identifier>
-        <dc:title>Low tech: face au tout-numérique, se réapproprier les technologies</dc:title>
-        <dc:creator>ritimo</dc:creator>
-        <dc:language>fr</dc:language>
-        <meta property="dcterms:modified">2020-04-14T14:01:01Z</meta>
-        <meta content="LibreOffice/6.4.2.2$Linux_X86_64 LibreOffice_project/40$Build-2 (libepubgen/0.1.1)" name="generator"/>
-    </metadata>
+    <dc:identifier id="unique-identifier">978-2-914180-8-70</dc:identifier>
+    <dc:title>Low tech: face au tout-numérique, se réapproprier les technologies</dc:title>
+    <dc:creator>ritimo</dc:creator>
+    <dc:language>fr</dc:language>
+    <meta property="dcterms:modified">2020-06-11T15:59:41Z</meta>
+    <meta content="LibreOffice/6.4.2.2$Linux_X86_64 LibreOffice_project/40$Build-2 (libepubgen/0.1.1)" name="generator"/>
+  </metadata>
     <manifest>
         <item href="images/image0001.jpg" id="image0001" media-type="image/jpeg" properties="cover-image"/>
         <item href="sections/cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
