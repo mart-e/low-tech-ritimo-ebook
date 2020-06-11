@@ -22,6 +22,7 @@
         <item href="sections/section0002.xhtml" id="section0002" media-type="application/xhtml+xml"/>
         <item href="styles/stylesheet.css" id="stylesheet.css" media-type="text/css"/>
         <item href="sections/section0003.xhtml" id="section0003" media-type="application/xhtml+xml"/>
+        <item href="sections/section0003-1.xhtml" id="section0003-1" media-type="application/xhtml+xml"/>
         <item href="sections/section0007.xhtml" id="section0007" media-type="application/xhtml+xml"/>
         <item href="images/image0002.jpg" id="image0002" media-type="image/jpeg"/>
         <item href="sections/section0005.xhtml" id="section0005" media-type="application/xhtml+xml"/>
@@ -36,7 +37,10 @@
         <item href="sections/section0012.xhtml" id="section0012" media-type="application/xhtml+xml"/>
         <item href="sections/section0013.xhtml" id="section0013" media-type="application/xhtml+xml"/>
         <item href="sections/section0014.xhtml" id="section0014" media-type="application/xhtml+xml"/>
-        <item href="sections/section0028.xhtml" id="section0028" media-type="application/xhtml+xml"/><item href="sections/section0026.xhtml" id="section0026" media-type="application/xhtml+xml"/><item href="sections/section0027.xhtml" id="section0027" media-type="application/xhtml+xml"/><item href="sections/section0032.xhtml" id="section0032" media-type="application/xhtml+xml"/><item href="sections/section0022.xhtml" id="section0022" media-type="application/xhtml+xml"/><item href="sections/section0034.xhtml" id="section0034" media-type="application/xhtml+xml"/><item href="sections/section0030.xhtml" id="section0030" media-type="application/xhtml+xml"/><item href="sections/section0029.xhtml" id="section0029" media-type="application/xhtml+xml"/><item href="sections/section0024.xhtml" id="section0024" media-type="application/xhtml+xml"/><item href="sections/section0025.xhtml" id="section0025" media-type="application/xhtml+xml"/><item href="sections/section0018.xhtml" id="section0018" media-type="application/xhtml+xml"/><item href="sections/section0031.xhtml" id="section0031" media-type="application/xhtml+xml"/><item href="sections/section0019.xhtml" id="section0019" media-type="application/xhtml+xml"/><item href="sections/section0023.xhtml" id="section0023" media-type="application/xhtml+xml"/><item href="sections/section0017.xhtml" id="section0017" media-type="application/xhtml+xml"/><item href="sections/section0020.xhtml" id="section0020" media-type="application/xhtml+xml"/><item href="sections/section0021.xhtml" id="section0021" media-type="application/xhtml+xml"/><item href="sections/section0035.xhtml" id="section0035" media-type="application/xhtml+xml"/><item href="sections/section0033.xhtml" id="section0033" media-type="application/xhtml+xml"/>
+        <item href="sections/section0028.xhtml" id="section0028" media-type="application/xhtml+xml"/>
+        <item href="sections/section0026.xhtml" id="section0026" media-type="application/xhtml+xml"/>
+        <item href="sections/section0027.xhtml" id="section0027" media-type="application/xhtml+xml"/>
+        <item href="sections/section0032.xhtml" id="section0032" media-type="application/xhtml+xml"/><item href="sections/section0022.xhtml" id="section0022" media-type="application/xhtml+xml"/><item href="sections/section0034.xhtml" id="section0034" media-type="application/xhtml+xml"/><item href="sections/section0030.xhtml" id="section0030" media-type="application/xhtml+xml"/><item href="sections/section0029.xhtml" id="section0029" media-type="application/xhtml+xml"/><item href="sections/section0024.xhtml" id="section0024" media-type="application/xhtml+xml"/><item href="sections/section0025.xhtml" id="section0025" media-type="application/xhtml+xml"/><item href="sections/section0018.xhtml" id="section0018" media-type="application/xhtml+xml"/><item href="sections/section0031.xhtml" id="section0031" media-type="application/xhtml+xml"/><item href="sections/section0019.xhtml" id="section0019" media-type="application/xhtml+xml"/><item href="sections/section0023.xhtml" id="section0023" media-type="application/xhtml+xml"/><item href="sections/section0017.xhtml" id="section0017" media-type="application/xhtml+xml"/><item href="sections/section0020.xhtml" id="section0020" media-type="application/xhtml+xml"/><item href="sections/section0021.xhtml" id="section0021" media-type="application/xhtml+xml"/><item href="sections/section0035.xhtml" id="section0035" media-type="application/xhtml+xml"/><item href="sections/section0033.xhtml" id="section0033" media-type="application/xhtml+xml"/>
         <item href="sections/section0036.xhtml" id="section0036" media-type="application/xhtml+xml"/>
         <item href="sections/end.xhtml" id="end" media-type="application/xhtml+xml"/>
     </manifest>
@@ -45,6 +49,7 @@
         <itemref idref="section0001"/>
         <itemref idref="section0002"/>
         <itemref idref="section0003"/>
+        <itemref idref="section0003-1"/>
         <itemref idref="section0004"/>
         <itemref idref="section0005"/>
         <itemref idref="section0006"/>
