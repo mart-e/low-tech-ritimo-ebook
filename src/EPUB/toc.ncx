@@ -232,26 +232,32 @@
         </navLabel>
         <content src="sections/section0032.xhtml"/>
       </navPoint>
-    </navPoint>
-    <navPoint id="num_38" playOrder="38">
-      <navLabel>
-        <text>En guise de conclusion : Une technologie au service de la vie</text>
-      </navLabel>
-      <content src="sections/section0033.xhtml"/>
+      <navPoint id="num_38" playOrder="38">
+        <navLabel>
+          <text>En guise de conclusion : Une technologie au service de la vie</text>
+        </navLabel>
+        <content src="sections/section0033.xhtml"/>
+      </navPoint>
     </navPoint>
     <navPoint id="num_39" playOrder="39">
+      <navLabel>
+        <text>Liste des auteur·es</text>
+      </navLabel>
+      <content src="sections/section0033-1.xhtml"/>
+    </navPoint>
+    <navPoint id="num_40" playOrder="40">
       <navLabel>
         <text>BIBLIOGRAPHIE</text>
       </navLabel>
       <content src="sections/section0034.xhtml"/>
     </navPoint>
-    <navPoint id="num_40" playOrder="40">
+    <navPoint id="num_41" playOrder="41">
       <navLabel>
         <text>SITOGRAPHIE</text>
       </navLabel>
       <content src="sections/section0035.xhtml"/>
     </navPoint>
-    <navPoint id="num_41" playOrder="41">
+    <navPoint id="num_42" playOrder="42">
       <navLabel>
         <text>FILMOGRAPHIE SÉLECTIVE</text>
       </navLabel>
