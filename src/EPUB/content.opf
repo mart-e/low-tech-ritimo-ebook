@@ -37,6 +37,7 @@
         <item href="images/image0003.jpg" id="image0003" media-type="image/jpeg"/>
         <item href="sections/section0012.xhtml" id="section0012" media-type="application/xhtml+xml"/>
         <item href="sections/section0013.xhtml" id="section0013" media-type="application/xhtml+xml"/>
+        <item href="sections/section0013-1.xhtml" id="section0013-1" media-type="application/xhtml+xml"/>
         <item href="sections/section0014.xhtml" id="section0014" media-type="application/xhtml+xml"/>
         <item href="sections/section0028.xhtml" id="section0028" media-type="application/xhtml+xml"/>
         <item href="sections/section0026.xhtml" id="section0026" media-type="application/xhtml+xml"/>
@@ -66,6 +67,7 @@
         <itemref idref="section0011"/>
         <itemref idref="section0012"/>
         <itemref idref="section0013"/>
+        <itemref idref="section0013-1"/>
         <itemref idref="section0014"/>
         <itemref idref="section0015"/>
         <itemref idref="section0016"/>
