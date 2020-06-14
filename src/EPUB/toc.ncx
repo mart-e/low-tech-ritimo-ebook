@@ -204,60 +204,66 @@
       </navPoint>
       <navPoint id="num_33" playOrder="33">
         <navLabel>
+          <text>Le premier réseau de téléphonie mobile communautaire, un pont entre les communautés de hackeurs et les peuples autochtones du Mexique</text>
+        </navLabel>
+        <content src="sections/section0027-1.xhtml"/>
+      </navPoint>
+      <navPoint id="num_34" playOrder="34">
+        <navLabel>
           <text>Les low tech avec les réfugié·es : une histoire d’autonomie et de résilience</text>
         </navLabel>
         <content src="sections/section0028.xhtml"/>
       </navPoint>
-      <navPoint id="num_34" playOrder="34">
+      <navPoint id="num_35" playOrder="35">
         <navLabel>
           <text>Les femmes et l’informatique : histoire d’une exclusion, enjeux de la réappropriation</text>
         </navLabel>
         <content src="sections/section0029.xhtml"/>
       </navPoint>
-      <navPoint id="num_35" playOrder="35">
+      <navPoint id="num_36" playOrder="36">
         <navLabel>
           <text>Créer nos propres insfrastructures féministes</text>
         </navLabel>
         <content src="sections/section0030.xhtml"/>
       </navPoint>
-      <navPoint id="num_36" playOrder="36">
+      <navPoint id="num_37" playOrder="37">
         <navLabel>
           <text>Quelles technologies pour quels futurs ? Se réapproprier les imaginaires avec les ateliers de l’Antémonde</text>
         </navLabel>
         <content src="sections/section0031.xhtml"/>
       </navPoint>
-      <navPoint id="num_37" playOrder="37">
+      <navPoint id="num_38" playOrder="38">
         <navLabel>
           <text>La Ğ1, une monnaie libre, auto-gérée et sobre énergétiquement</text>
         </navLabel>
         <content src="sections/section0032.xhtml"/>
       </navPoint>
-      <navPoint id="num_38" playOrder="38">
+      <navPoint id="num_39" playOrder="39">
         <navLabel>
           <text>En guise de conclusion : Une technologie au service de la vie</text>
         </navLabel>
         <content src="sections/section0033.xhtml"/>
       </navPoint>
     </navPoint>
-    <navPoint id="num_39" playOrder="39">
+    <navPoint id="num_40" playOrder="40">
       <navLabel>
         <text>Liste des auteur·es</text>
       </navLabel>
       <content src="sections/section0033-1.xhtml"/>
     </navPoint>
-    <navPoint id="num_40" playOrder="40">
+    <navPoint id="num_41" playOrder="41">
       <navLabel>
         <text>BIBLIOGRAPHIE</text>
       </navLabel>
       <content src="sections/section0034.xhtml"/>
     </navPoint>
-    <navPoint id="num_41" playOrder="41">
+    <navPoint id="num_42" playOrder="42">
       <navLabel>
         <text>SITOGRAPHIE</text>
       </navLabel>
       <content src="sections/section0035.xhtml"/>
     </navPoint>
-    <navPoint id="num_42" playOrder="42">
+    <navPoint id="num_43" playOrder="43">
       <navLabel>
         <text>FILMOGRAPHIE SÉLECTIVE</text>
       </navLabel>
