@@ -5,7 +5,7 @@
     <dc:title>Low tech: face au tout-numérique, se réapproprier les technologies</dc:title>
     <dc:creator>ritimo</dc:creator>
     <dc:language>fr</dc:language>
-    <meta property="dcterms:modified">2020-06-14T20:15:04Z</meta>
+    <meta property="dcterms:modified">2020-06-23T21:04:44Z</meta>
     <meta content="LibreOffice/6.4.2.2$Linux_X86_64 LibreOffice_project/40$Build-2 (libepubgen/0.1.1)" name="generator"/>
   </metadata>
     <manifest>
@@ -35,10 +35,12 @@
         <item href="images/image0004.png" id="image0004" media-type="image/png"/>
         <item href="images/image0005.png" id="image0005" media-type="image/png"/>
         <item href="images/image0003.jpg" id="image0003" media-type="image/jpeg"/>
+        <item href="images/conso-internet.png" id="conso-internet" media-type="image/png"/>
         <item href="sections/section0012.xhtml" id="section0012" media-type="application/xhtml+xml"/>
         <item href="sections/section0013.xhtml" id="section0013" media-type="application/xhtml+xml"/>
         <item href="sections/section0013-1.xhtml" id="section0013-1" media-type="application/xhtml+xml"/>
         <item href="sections/section0014.xhtml" id="section0014" media-type="application/xhtml+xml"/>
+        <item href="sections/section0014-1.xhtml" id="section0014-1" media-type="application/xhtml+xml"/>
         <item href="sections/section0028.xhtml" id="section0028" media-type="application/xhtml+xml"/>
         <item href="sections/section0026.xhtml" id="section0026" media-type="application/xhtml+xml"/>
         <item href="sections/section0027.xhtml" id="section0027" media-type="application/xhtml+xml"/>
@@ -51,6 +53,7 @@
         <item href="sections/section0033-1.xhtml" id="section0033-1" media-type="application/xhtml+xml"/>
         <item href="sections/section0036.xhtml" id="section0036" media-type="application/xhtml+xml"/>
         <item href="sections/end.xhtml" id="end" media-type="application/xhtml+xml"/>
+        <item href="../Conso-internet.png" id="id" media-type="image/png"/>
     </manifest>
     <spine toc="toc.ncx">
         <itemref idref="cover"/>
@@ -70,6 +73,7 @@
         <itemref idref="section0013"/>
         <itemref idref="section0013-1"/>
         <itemref idref="section0014"/>
+        <itemref idref="section0014-1"/>
         <itemref idref="section0015"/>
         <itemref idref="section0016"/>
         <itemref idref="section0017"/><itemref idref="section0018"/><itemref idref="section0019"/><itemref idref="section0020"/>
