@@ -1,287 +1,291 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
-    <head>
-        <meta content="" name="" scheme=""/>
-    </head>
-    <docTitle>
-        <text/>
-    </docTitle>
-    <navMap>
-        <navPoint class="document" id="section1" playOrder="1">
-            <navLabel>
-                <text>Section 1</text>
-            </navLabel>
-            <content src="sections/section0001.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section2" playOrder="2">
-            <navLabel>
-                <text>Le fascisme du XXIe siècle peut-il résoudre la crise du capitalisme mondial ?</text>
-            </navLabel>
-            <content src="sections/section0002.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section3" playOrder="3">
-            <navLabel>
-                <text>La décennie 2010 ou l’essor des gouvernements autoritaires et ultraconservateurs</text>
-            </navLabel>
-            <content src="sections/section0003.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section4" playOrder="4">
-            <navLabel>
-                <text>Bolivie : une crise électorale qui cache des ruptures profondes. Réflexions sur 14 années de gouvernement « progressiste », les mouvements sociaux, la conflictualité et le pouvoir</text>
-            </navLabel>
-            <content src="sections/section0004.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section5" playOrder="5">
-            <navLabel>
-                <text>ENCADRE : Lettre ouverte de la Primera Línea chilienne</text>
-            </navLabel>
-            <content src="sections/section0005.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section6" playOrder="6">
-            <navLabel>
-                <text>Repenser la démocratie</text>
-            </navLabel>
-            <content src="sections/section0006.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section7" playOrder="7">
-            <navLabel>
-                <text>Astra Taylor</text>
-            </navLabel>
-            <content src="sections/section0007.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section8" playOrder="8">
-            <navLabel>
-                <text>L’austéritarisme traduit les limites du néolibéralisme</text>
-            </navLabel>
-            <content src="sections/section0008.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section9" playOrder="9">
-            <navLabel>
-                <text>Quand les accords de commerce minent la capacité des États de répondre aux urgences écologiques et sociales</text>
-            </navLabel>
-            <content src="sections/section0009.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section10" playOrder="10">
-            <navLabel>
-                <text>Une passion contrariée : l’Égalité</text>
-            </navLabel>
-            <content src="sections/section0010.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section11" playOrder="11">
-            <navLabel>
-                <text>Le business as usual ne peut plus durer : État, droits humains et entreprises au temps du néolibéralisme autoritaire (et du coronavirus)</text>
-            </navLabel>
-            <content src="sections/section0011.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section12" playOrder="12">
-            <navLabel>
-                <text>Les années 1970 et la contre-offensive du libéralisme autoritaire contre la démocratie. À propos de « La société ingouvernable » de Grégoire Chamayou</text>
-            </navLabel>
-            <content src="sections/section0012.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section13" playOrder="13">
-            <navLabel>
-                <text>Encadrer l’influence politique des entreprises sur l’opinion publique</text>
-            </navLabel>
-            <content src="sections/section0013.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section14" playOrder="14">
-            <navLabel>
-                <text>Associations citoyennes dans le mouvement social : reprendre l’offensive</text>
-            </navLabel>
-            <content src="sections/section0014.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section15" playOrder="15">
-            <navLabel>
-                <text>Le fascisme du XXIe siècle peut-il résoudre la crise du capitalisme mondial ?</text>
-            </navLabel>
-            <content src="sections/section0015.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section16" playOrder="16">
-            <navLabel>
-                <text>La décennie 2010 ou l’essor des gouvernements autoritaires et ultraconservateurs</text>
-            </navLabel>
-            <content src="sections/section0016.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section17" playOrder="17">
-            <navLabel>
-                <text>Triste banalité de l’exception antiterroriste</text>
-            </navLabel>
-            <content src="sections/section0017.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section18" playOrder="18">
-            <navLabel>
-                <text>Maintien de l’ordre en France : entre violence coloniale et restructuration néolibérale</text>
-            </navLabel>
-            <content src="sections/section0018.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section19" playOrder="19">
-            <navLabel>
-                <text>Pénalisation en France des appels au boycott des produits israéliens : comment et pourquoi ?</text>
-            </navLabel>
-            <content src="sections/section0019.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section20" playOrder="20">
-            <navLabel>
-                <text>La montée de l’hypercapitalisme et de la politique autoritariste : une menace grandissante pour les défenseur·ses des droits humains</text>
-            </navLabel>
-            <content src="sections/section0020.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section21" playOrder="21">
-            <navLabel>
-                <text>L’offensive putschiste sur notre continent</text>
-            </navLabel>
-            <content src="sections/section0021.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section22" playOrder="22">
-            <navLabel>
-                <text>Bolivie : une crise électorale qui cache des ruptures profondes</text>
-            </navLabel>
-            <content src="sections/section0022.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section23" playOrder="23">
-            <navLabel>
-                <text>Capitalo·techno·craties : 50 nuances de surveillance</text>
-            </navLabel>
-            <content src="sections/section0023.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section24" playOrder="24">
-            <navLabel>
-                <text>Protéger les espaces civiques</text>
-            </navLabel>
-            <content src="sections/section0024.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section25" playOrder="25">
-            <navLabel>
-                <text>Répression policière et criminalisation de la résistance autochtone au Canada</text>
-            </navLabel>
-            <content src="sections/section0025.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section26" playOrder="26">
-            <navLabel>
-                <text>Espaces démocratiques et infrastructures de télécommunications : penser les opérateurs comme des acteurs politiques</text>
-            </navLabel>
-            <content src="sections/section0026.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section27" playOrder="27">
-            <navLabel>
-                <text>Les libertés associatives menacées. Constat, résultats et ripostes</text>
-            </navLabel>
-            <content src="sections/section0027.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section28" playOrder="28">
-            <navLabel>
-                <text>Section 28</text>
-            </navLabel>
-            <content src="sections/section0028.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section29" playOrder="29">
-            <navLabel>
-                <text>Se défendre face aux répressions, du numérique au juridique</text>
-            </navLabel>
-            <content src="sections/section0029.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section30" playOrder="30">
-            <navLabel>
-                <text>Lettre ouverte de la Primera Línea chilienne</text>
-            </navLabel>
-            <content src="sections/section0030.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section31" playOrder="31">
-            <navLabel>
-                <text>Identités politiques et modes d’action : une invitation à réinventer nos communautés de lutte</text>
-            </navLabel>
-            <content src="sections/section0031.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section32" playOrder="32">
-            <navLabel>
-                <text>Peut-on abolir la police ? La question fait débat aux États-Unis</text>
-            </navLabel>
-            <content src="sections/section0032.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section33" playOrder="33">
-            <navLabel>
-                <text>Féminisme et abolitionnisme : quels horizons politiques ?</text>
-            </navLabel>
-            <content src="sections/section0033.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section34" playOrder="34">
-            <navLabel>
-                <text>« Démocratie protestataire » : comment les mouvements sociaux africains constants redéfinissent la démocratie et (ré)inventent le futur</text>
-            </navLabel>
-            <content src="sections/section0034.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section35" playOrder="35">
-            <navLabel>
-                <text>Combattre l’autoritarisme en Afrique : quels défis ?</text>
-            </navLabel>
-            <content src="sections/section0035.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section36" playOrder="36">
-            <navLabel>
-                <text>Un autre monde est-il encore possible ?</text>
-            </navLabel>
-            <content src="sections/section0036.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section37" playOrder="37">
-            <navLabel>
-                <text>Endetté·es de tous les pays, unissez-vous</text>
-            </navLabel>
-            <content src="sections/section0037.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section38" playOrder="38">
-            <navLabel>
-                <text>Le municipalisme peut-il refonder et revitaliser le processus démocratique ?</text>
-            </navLabel>
-            <content src="sections/section0038.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section39" playOrder="39">
-            <navLabel>
-                <text>Liste des auteur·rices</text>
-            </navLabel>
-            <content src="sections/section0039.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section40" playOrder="40">
-            <navLabel>
-                <text>BIBLIOGRAPHIE</text>
-            </navLabel>
-            <content src="sections/section0040.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section41" playOrder="41">
-            <navLabel>
-                <text>SITOGRAPHIE</text>
-            </navLabel>
-            <content src="sections/section0041.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section42" playOrder="42">
-            <navLabel>
-                <text>Observatoire des libertés et des pratiques policières</text>
-            </navLabel>
-            <content src="sections/section0042.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section43" playOrder="43">
-            <navLabel>
-                <text>#8toAbolition</text>
-            </navLabel>
-            <content src="sections/section0043.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section44" playOrder="44">
-            <navLabel>
-                <text>Système Publicitaire et Influence des Multinatinonales</text>
-            </navLabel>
-            <content src="sections/section0044.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section45" playOrder="45">
-            <navLabel>
-                <text>FILMOGRAPHIE SELECTIVE</text>
-            </navLabel>
-            <content src="sections/section0045.xhtml"/>
-        </navPoint>
-        <navPoint class="document" id="section46" playOrder="46">
-            <navLabel>
-                <text>LES DERNIERS NUMÉROS DE LA COLLECTION PASSERELLE</text>
-            </navLabel>
-            <content src="sections/section0046.xhtml"/>
-        </navPoint>
-    </navMap>
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+  <head>
+    <meta content="17a4bfe1-5925-4942-a982-42ee2baa714a" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (4.23.0)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Unknown Title</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="num_1" playOrder="1">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="sections/section0001.xhtml#toc_2"/>
+    </navPoint>
+    <navPoint id="num_2" playOrder="2">
+      <navLabel>
+        <text>Sommaire</text>
+      </navLabel>
+      <content src="sections/section0002.xhtml"/>
+    </navPoint>
+    <navPoint id="num_3" playOrder="3">
+      <navLabel>
+        <text>Section 1</text>
+      </navLabel>
+      <content src="sections/section0006.xhtml#toc_1"/>
+      <navPoint id="num_4" playOrder="4">
+        <navLabel>
+          <text>Repenser la démocratie</text>
+        </navLabel>
+        <content src="sections/section0006.xhtml#toc_2"/>
+      </navPoint>
+      <navPoint id="num_5" playOrder="5">
+        <navLabel>
+          <text>L’austéritarisme traduit les limites du néolibéralisme</text>
+        </navLabel>
+        <content src="sections/section0008.xhtml"/>
+      </navPoint>
+      <navPoint id="num_6" playOrder="6">
+        <navLabel>
+          <text>Quand les accords de commerce minent la capacité des États de répondre aux urgences écologiques et sociales</text>
+        </navLabel>
+        <content src="sections/section0009.xhtml"/>
+      </navPoint>
+      <navPoint id="num_7" playOrder="7">
+        <navLabel>
+          <text>Une passion contrariée : l’Égalité</text>
+        </navLabel>
+        <content src="sections/section0010.xhtml"/>
+      </navPoint>
+      <navPoint id="num_8" playOrder="8">
+        <navLabel>
+          <text>Le business as usual ne peut plus durer : État, droits humains et entreprises au temps du néolibéralisme autoritaire (et du coronavirus)</text>
+        </navLabel>
+        <content src="sections/section0011.xhtml"/>
+      </navPoint>
+      <navPoint id="num_9" playOrder="9">
+        <navLabel>
+          <text>Les années 1970 et la contre-offensive du libéralisme autoritaire contre la démocratie. À propos de « La société ingouvernable » de Grégoire Chamayou</text>
+        </navLabel>
+        <content src="sections/section0012.xhtml"/>
+      </navPoint>
+      <navPoint id="num_10" playOrder="10">
+        <navLabel>
+          <text>Encadrer l’influence politique des entreprises sur l’opinion publique</text>
+        </navLabel>
+        <content src="sections/section0013.xhtml"/>
+      </navPoint>
+      <navPoint id="num_11" playOrder="11">
+        <navLabel>
+          <text>Associations citoyennes dans le mouvement social : reprendre l’offensive</text>
+        </navLabel>
+        <content src="sections/section0014.xhtml"/>
+      </navPoint>
+      <navPoint id="num_12" playOrder="12">
+        <navLabel>
+          <text>Le fascisme du XXIe siècle peut-il résoudre la crise du capitalisme mondial ?</text>
+        </navLabel>
+        <content src="sections/section0015.xhtml"/>
+      </navPoint>
+    </navPoint>
+    <navPoint id="num_13" playOrder="13">
+      <navLabel>
+        <text>Bolivie : une crise électorale qui cache des ruptures profondes. Réflexions sur 14 années de gouvernement « progressiste », les mouvements sociaux, la conflictualité et le pouvoir</text>
+      </navLabel>
+      <content src="sections/section0004.xhtml"/>
+    </navPoint>
+    <navPoint id="num_14" playOrder="14">
+      <navLabel>
+        <text>ENCADRE : Lettre ouverte de la Primera Línea chilienne</text>
+      </navLabel>
+      <content src="sections/section0005.xhtml"/>
+    </navPoint>
+    <navPoint id="num_15" playOrder="15">
+      <navLabel>
+        <text>Astra Taylor</text>
+      </navLabel>
+      <content src="sections/section0007.xhtml"/>
+    </navPoint>
+    <navPoint id="num_16" playOrder="16">
+      <navLabel>
+        <text>La décennie 2010 ou l’essor des gouvernements autoritaires et ultraconservateurs</text>
+      </navLabel>
+      <content src="sections/section0016.xhtml"/>
+    </navPoint>
+    <navPoint id="num_17" playOrder="17">
+      <navLabel>
+        <text>Triste banalité de l’exception antiterroriste</text>
+      </navLabel>
+      <content src="sections/section0017.xhtml"/>
+    </navPoint>
+    <navPoint id="num_18" playOrder="18">
+      <navLabel>
+        <text>Maintien de l’ordre en France : entre violence coloniale et restructuration néolibérale</text>
+      </navLabel>
+      <content src="sections/section0018.xhtml"/>
+    </navPoint>
+    <navPoint id="num_19" playOrder="19">
+      <navLabel>
+        <text>Pénalisation en France des appels au boycott des produits israéliens : comment et pourquoi ?</text>
+      </navLabel>
+      <content src="sections/section0019.xhtml"/>
+    </navPoint>
+    <navPoint id="num_20" playOrder="20">
+      <navLabel>
+        <text>La montée de l’hypercapitalisme et de la politique autoritariste : une menace grandissante pour les défenseur·ses des droits humains</text>
+      </navLabel>
+      <content src="sections/section0020.xhtml"/>
+    </navPoint>
+    <navPoint id="num_21" playOrder="21">
+      <navLabel>
+        <text>L’offensive putschiste sur notre continent</text>
+      </navLabel>
+      <content src="sections/section0021.xhtml"/>
+    </navPoint>
+    <navPoint id="num_22" playOrder="22">
+      <navLabel>
+        <text>Bolivie : une crise électorale qui cache des ruptures profondes</text>
+      </navLabel>
+      <content src="sections/section0022.xhtml"/>
+    </navPoint>
+    <navPoint id="num_23" playOrder="23">
+      <navLabel>
+        <text>Capitalo·techno·craties : 50 nuances de surveillance</text>
+      </navLabel>
+      <content src="sections/section0023.xhtml"/>
+    </navPoint>
+    <navPoint id="num_24" playOrder="24">
+      <navLabel>
+        <text>Protéger les espaces civiques</text>
+      </navLabel>
+      <content src="sections/section0024.xhtml"/>
+    </navPoint>
+    <navPoint id="num_25" playOrder="25">
+      <navLabel>
+        <text>Répression policière et criminalisation de la résistance autochtone au Canada</text>
+      </navLabel>
+      <content src="sections/section0025.xhtml"/>
+    </navPoint>
+    <navPoint id="num_26" playOrder="26">
+      <navLabel>
+        <text>Espaces démocratiques et infrastructures de télécommunications : penser les opérateurs comme des acteurs politiques</text>
+      </navLabel>
+      <content src="sections/section0026.xhtml"/>
+    </navPoint>
+    <navPoint id="num_27" playOrder="27">
+      <navLabel>
+        <text>Les libertés associatives menacées. Constat, résultats et ripostes</text>
+      </navLabel>
+      <content src="sections/section0027.xhtml"/>
+    </navPoint>
+    <navPoint id="num_28" playOrder="28">
+      <navLabel>
+        <text>Section 28</text>
+      </navLabel>
+      <content src="sections/section0028.xhtml"/>
+    </navPoint>
+    <navPoint id="num_29" playOrder="29">
+      <navLabel>
+        <text>Se défendre face aux répressions, du numérique au juridique</text>
+      </navLabel>
+      <content src="sections/section0029.xhtml"/>
+    </navPoint>
+    <navPoint id="num_30" playOrder="30">
+      <navLabel>
+        <text>Lettre ouverte de la Primera Línea chilienne</text>
+      </navLabel>
+      <content src="sections/section0030.xhtml"/>
+    </navPoint>
+    <navPoint id="num_31" playOrder="31">
+      <navLabel>
+        <text>Identités politiques et modes d’action : une invitation à réinventer nos communautés de lutte</text>
+      </navLabel>
+      <content src="sections/section0031.xhtml"/>
+    </navPoint>
+    <navPoint id="num_32" playOrder="32">
+      <navLabel>
+        <text>Peut-on abolir la police ? La question fait débat aux États-Unis</text>
+      </navLabel>
+      <content src="sections/section0032.xhtml"/>
+    </navPoint>
+    <navPoint id="num_33" playOrder="33">
+      <navLabel>
+        <text>Féminisme et abolitionnisme : quels horizons politiques ?</text>
+      </navLabel>
+      <content src="sections/section0033.xhtml"/>
+    </navPoint>
+    <navPoint id="num_34" playOrder="34">
+      <navLabel>
+        <text>« Démocratie protestataire » : comment les mouvements sociaux africains constants redéfinissent la démocratie et (ré)inventent le futur</text>
+      </navLabel>
+      <content src="sections/section0034.xhtml"/>
+    </navPoint>
+    <navPoint id="num_35" playOrder="35">
+      <navLabel>
+        <text>Combattre l’autoritarisme en Afrique : quels défis ?</text>
+      </navLabel>
+      <content src="sections/section0035.xhtml"/>
+    </navPoint>
+    <navPoint id="num_36" playOrder="36">
+      <navLabel>
+        <text>Un autre monde est-il encore possible ?</text>
+      </navLabel>
+      <content src="sections/section0036.xhtml"/>
+    </navPoint>
+    <navPoint id="num_37" playOrder="37">
+      <navLabel>
+        <text>Endetté·es de tous les pays, unissez-vous</text>
+      </navLabel>
+      <content src="sections/section0037.xhtml"/>
+    </navPoint>
+    <navPoint id="num_38" playOrder="38">
+      <navLabel>
+        <text>Le municipalisme peut-il refonder et revitaliser le processus démocratique ?</text>
+      </navLabel>
+      <content src="sections/section0038.xhtml"/>
+    </navPoint>
+    <navPoint id="num_39" playOrder="39">
+      <navLabel>
+        <text>Liste des auteur·rices</text>
+      </navLabel>
+      <content src="sections/section0039.xhtml"/>
+    </navPoint>
+    <navPoint id="num_40" playOrder="40">
+      <navLabel>
+        <text>BIBLIOGRAPHIE</text>
+      </navLabel>
+      <content src="sections/section0040.xhtml"/>
+    </navPoint>
+    <navPoint id="num_41" playOrder="41">
+      <navLabel>
+        <text>SITOGRAPHIE</text>
+      </navLabel>
+      <content src="sections/section0041.xhtml"/>
+    </navPoint>
+    <navPoint id="num_42" playOrder="42">
+      <navLabel>
+        <text>Observatoire des libertés et des pratiques policières</text>
+      </navLabel>
+      <content src="sections/section0042.xhtml"/>
+    </navPoint>
+    <navPoint id="num_43" playOrder="43">
+      <navLabel>
+        <text>#8toAbolition</text>
+      </navLabel>
+      <content src="sections/section0043.xhtml"/>
+    </navPoint>
+    <navPoint id="num_44" playOrder="44">
+      <navLabel>
+        <text>Système Publicitaire et Influence des Multinatinonales</text>
+      </navLabel>
+      <content src="sections/section0044.xhtml"/>
+    </navPoint>
+    <navPoint id="num_45" playOrder="45">
+      <navLabel>
+        <text>FILMOGRAPHIE SELECTIVE</text>
+      </navLabel>
+      <content src="sections/section0045.xhtml"/>
+    </navPoint>
+    <navPoint id="num_46" playOrder="46">
+      <navLabel>
+        <text>LES DERNIERS NUMÉROS DE LA COLLECTION PASSERELLE</text>
+      </navLabel>
+      <content src="sections/section0046.xhtml"/>
+    </navPoint>
+  </navMap>
 </ncx>
