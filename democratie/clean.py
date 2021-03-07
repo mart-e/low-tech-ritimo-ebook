@@ -308,6 +308,8 @@ def merge_tag(root):
 def merge_duplicated_tags():
     """ if two same tags with same class follow each other, merge them"""
     parser = etree.XMLParser(ns_clean=True, recover=True, encoding="utf-8")
+    # prefix, uri = "epub", "http://www.idpf.org/2007/ops"
+    # etree.register_namespace(prefix, uri)
     for filename in sorted(Path("src/OEBPS/sections/").glob("section*.xhtml")):
         print("MERGING", filename)
         with filename.open() as f:
@@ -319,9 +321,10 @@ def merge_duplicated_tags():
 
         # move to another repository for comparison
         new_filename = filename.parent.parent / "new_sections" / filename.name
-        with new_filename.open("w") as f:
+        with new_filename.open("wb") as f:
             # save everything computed so far
-            f.write(etree.tostring(root, encoding="utf-8").decode())
+            et = etree.ElementTree(root)
+            et.write(f, encoding='utf-8', xml_declaration=True)
 
 
 if __name__ == "__main__":
