@@ -1,0 +1,17 @@
+1. depuis libreoffice -> export as epub
+2. renommer .epub en .zip et extraire dans un dossier "src"
+3. nettoyer les tags dupliqués
+    -> merge_duplicated_tags() de clean.py
+    -> remplacer contenu de sections/ par celui de new_sections/
+4. mettre des bons namespace
+    -> <html xmlns="http://www.w3.org/1999/xhtml">
+    -> <body class="body0" xmlns:epub="http://www.idpf.org/2007/ops">
+5. recreation de la ToC
+    -> bouger dans section0002.xhtml le sommaire
+    -> dans Calibre EPUB Editor, refaire la ToC
+6. nettoyage, dans Calibre EPUB Editor
+    -> select sections -> "merge selected text file"
+    -> Tools > Fix HTML
+    -> Tools > Check Book (supprimer propriétés CSS)
+    -> ajoute couverture.jpg comme couverture
+    -> ajoute 4ecouverture.png comme derniere page (end.xml)
