@@ -15,7 +15,7 @@
       <navLabel>
         <text>Introduction</text>
       </navLabel>
-      <content src="sections/section0001.xhtml#toc_2"/>
+      <content src="sections/section0001_1.xhtml#toc_2"/>
     </navPoint>
     <navPoint id="num_2" playOrder="2">
       <navLabel>
@@ -87,12 +87,12 @@
       <navLabel>
         <text>Partie II</text>
       </navLabel>
-      <content src="sections/section0016.xhtml#toc_1"/>
+      <content src="sections/section0016.xhtml"/>
       <navPoint id="num_14" playOrder="14">
         <navLabel>
           <text>La décennie 2010 ou l’essor des gouvernements autoritaires et ultraconservateurs</text>
         </navLabel>
-        <content src="sections/section0016.xhtml#toc_2"/>
+        <content src="sections/section0016_1.xhtml"/>
       </navPoint>
       <navPoint id="num_15" playOrder="15">
         <navLabel>

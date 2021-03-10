@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='utf-8'?>
-<package prefix="calibre: https://calibre-ebook.com" unique-identifier="unique-identifier" version="3.0" xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf">
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" prefix="calibre: https://calibre-ebook.com" unique-identifier="unique-identifier" version="3.0">
     <metadata>
-        <dc:identifier id="unique-identifier">978-2-914180-90-0</dc:identifier>
-        <dc:title>Démocraties sous pression</dc:title>
-        <dc:creator>Ritimo</dc:creator>
-        <dc:language>fr</dc:language>
-        <meta property="dcterms:modified">2021-03-08T17:37:02Z</meta>
-        <meta content="LibreOffice/7.1.0.3$Linux_X86_64 LibreOffice_project/10$Build-3 (libepubgen/0.1.1)" name="generator"/>
-    </metadata>
+    <dc:identifier id="unique-identifier">978-2-914180-90-0</dc:identifier>
+    <dc:title>Démocraties sous pression</dc:title>
+    <dc:creator>Ritimo</dc:creator>
+    <dc:language>fr</dc:language>
+    <meta property="dcterms:modified">2021-03-10T21:12:11Z</meta>
+    <meta content="LibreOffice/7.1.0.3$Linux_X86_64 LibreOffice_project/10$Build-3 (libepubgen/0.1.1)" name="generator"/>
+  </metadata>
     <manifest>
         <item href="sections/section0046.xhtml" id="section0046" media-type="application/xhtml+xml"/>
         <item href="sections/section0045.xhtml" id="section0045" media-type="application/xhtml+xml"/>
@@ -57,10 +57,13 @@
         <item href="sections/titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml" properties="svg calibre:title-page"/>
         <item href="images/4ecouverture.png" id="4ecouverture" media-type="image/png"/>
         <item href="sections/end.xhtml" id="end" media-type="application/xhtml+xml"/>
+        <item href="sections/section0016_1.xhtml" id="id" media-type="application/xhtml+xml"/>
+        <item href="sections/section0001_1.xhtml" id="id1" media-type="application/xhtml+xml"/>
     </manifest>
     <spine toc="toc.ncx">
         <itemref idref="titlepage"/>
         <itemref idref="section0001"/>
+        <itemref idref="id1"/>
         <itemref idref="section0002"/>
         <itemref idref="section0006"/>
         <itemref idref="section0007"/>
@@ -73,6 +76,7 @@
         <itemref idref="section0014"/>
         <itemref idref="section0015"/>
         <itemref idref="section0016"/>
+        <itemref idref="id"/>
         <itemref idref="section0017"/>
         <itemref idref="section0018"/>
         <itemref idref="section0019"/>
