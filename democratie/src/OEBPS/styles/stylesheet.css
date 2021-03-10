@@ -81,6 +81,12 @@
   margin:  0.0000in 0px 0.0000in 0px;
   text-align: justify;
 }
+.para-list {
+  display: list-item;
+  list-style-type: disc;
+  list-style-position: outside;
+  margin-left: 1em;
+}
 
 .para15 {
   margin:  0.1654in 0px 0.0000in 0px;
@@ -171,7 +177,6 @@
 .para59 {
   margin:  0px 0px 0px 0px;
   min-height: 0.1945in;
-  text-align: start;
 }
 
 .para7 {
@@ -926,14 +931,11 @@
 }
 
 .span232 {
-  background-color: transparent;
-  color: #000000;
   font-family: 'Times new roman';
   font-size: 12.0000pt;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
-  text-decoration:  overline;
   text-shadow: 1px 1px 1px #666666;
 }
 
@@ -1444,15 +1446,11 @@
 }
 
 .span239 {
-  background-color: transparent;
-  color: #000000;
   font-family: 'Times new roman';
-  font-size: 11.0000pt;
+  font-size: 12.0000pt;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
-  text-decoration:  overline;
-  text-shadow: 1px 1px 1px #666666;
 }
 
 .span18 {
@@ -1980,15 +1978,11 @@
 }
 
 .span231 {
-  background-color: transparent;
-  color: #000000;
   font-family: 'Times new roman';
   font-size: 12.0000pt;
   font-style: normal;
   font-weight: bold;
   letter-spacing: normal;
-  text-decoration:  overline;
-  text-shadow: 1px 1px 1px #666666;
 }
 
 .span168 {

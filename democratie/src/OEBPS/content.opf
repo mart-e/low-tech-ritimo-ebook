@@ -5,7 +5,7 @@
     <dc:title>Démocraties sous pression</dc:title>
     <dc:creator>Ritimo</dc:creator>
     <dc:language>fr</dc:language>
-    <meta property="dcterms:modified">2021-03-10T21:26:13Z</meta>
+    <meta property="dcterms:modified">2021-03-10T22:08:34Z</meta>
     <meta content="LibreOffice/7.1.0.3$Linux_X86_64 LibreOffice_project/10$Build-3 (libepubgen/0.1.1)" name="generator"/>
   </metadata>
     <manifest>
@@ -59,6 +59,7 @@
         <item href="sections/end.xhtml" id="end" media-type="application/xhtml+xml"/>
         <item href="sections/section0016_1.xhtml" id="id" media-type="application/xhtml+xml"/>
         <item href="sections/section0001_1.xhtml" id="id1" media-type="application/xhtml+xml"/>
+        <item href="sections/section0046_1.xhtml" id="id2" media-type="application/xhtml+xml"/>
     </manifest>
     <spine toc="toc.ncx">
         <itemref idref="titlepage"/>
@@ -104,6 +105,7 @@
         <itemref idref="section0041"/>
         <itemref idref="section0045"/>
         <itemref idref="section0046"/>
+        <itemref idref="id2"/>
         <itemref idref="end"/>
     </spine>
 </package>
