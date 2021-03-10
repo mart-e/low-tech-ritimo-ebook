@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="en">
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="fr">
   <head>
-    <meta content="17a4bfe1-5925-4942-a982-42ee2baa714a" name="dtb:uid"/>
+    <meta content="978-2-914180-90-0" name="dtb:uid"/>
     <meta content="3" name="dtb:depth"/>
     <meta content="calibre (4.23.0)" name="dtb:generator"/>
     <meta content="0" name="dtb:totalPageCount"/>
     <meta content="0" name="dtb:maxPageNumber"/>
   </head>
   <docTitle>
-    <text>Unknown Title</text>
+    <text>Démocraties sous pression</text>
   </docTitle>
   <navMap>
     <navPoint id="num_1" playOrder="1">
@@ -27,12 +27,12 @@
       <navLabel>
         <text>Partie I</text>
       </navLabel>
-      <content src="sections/section0006.xhtml#toc_1"/>
+      <content src="sections/section0006.xhtml"/>
       <navPoint id="num_4" playOrder="4">
         <navLabel>
           <text>Repenser la démocratie</text>
         </navLabel>
-        <content src="sections/section0006.xhtml#toc_2"/>
+        <content src="sections/section0007.xhtml"/>
       </navPoint>
       <navPoint id="num_5" playOrder="5">
         <navLabel>
@@ -87,12 +87,12 @@
       <navLabel>
         <text>Partie II</text>
       </navLabel>
-      <content src="sections/section0016.xhtml"/>
+      <content src="sections/section0016.xhtml#toc_1"/>
       <navPoint id="num_14" playOrder="14">
         <navLabel>
           <text>La décennie 2010 ou l’essor des gouvernements autoritaires et ultraconservateurs</text>
         </navLabel>
-        <content src="sections/section0016_1.xhtml"/>
+        <content src="sections/section0016_1.xhtml#toc_2"/>
       </navPoint>
       <navPoint id="num_15" playOrder="15">
         <navLabel>
