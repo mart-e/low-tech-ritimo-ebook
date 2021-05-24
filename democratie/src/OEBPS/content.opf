@@ -5,7 +5,7 @@
     <dc:title>Démocraties sous pression</dc:title>
     <dc:creator>Ritimo</dc:creator>
     <dc:language>fr</dc:language>
-    <meta property="dcterms:modified">2021-03-14T09:17:24Z</meta>
+    <meta property="dcterms:modified">2021-05-24T14:18:15Z</meta>
     <meta content="LibreOffice/7.1.0.3$Linux_X86_64 LibreOffice_project/10$Build-3 (libepubgen/0.1.1)" name="generator"/>
   </metadata>
     <manifest>
@@ -60,6 +60,48 @@
         <item href="sections/section0016_1.xhtml" id="id" media-type="application/xhtml+xml"/>
         <item href="sections/section0001_1.xhtml" id="id1" media-type="application/xhtml+xml"/>
         <item href="sections/section0046_1.xhtml" id="id2" media-type="application/xhtml+xml"/>
+        <item id="id3" href="images/1.1-%20No%20buying%20democracy%20%40%20Lorie%20Shaull%20%28CC%20BY-SA%202.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id4" href="images/1.2-%20Democracia%20economica%20%40gaelx%20%28CC%20BY-SA%202.0%29%20.jpg" media-type="image/jpeg"/>
+        <item id="id5" href="images/2.1%20-%20parapluies%20versus%20lacrymo%20HK%20%40Studio%20Incendo%20CC%20BY%202.0.jpg" media-type="image/jpeg"/>
+        <item id="id7" href="../1.2-%20Democracia%20economica%20%40gaelx%20%28CC%20BY-SA%202.0%29%20.jpg" media-type="image/jpeg"/>
+        <item id="id6" href="../2.1%20-%20parapluies%20versus%20lacrymo%20HK%20%40Studio%20Incendo%20CC%20BY%202.0.jpg" media-type="image/jpeg"/>
+        <item id="id8" href="../2.2%20-%20Samira%20vs%20the%20army%20%40Gigi%20Ibrahim%20CC%20BY2.0.jpg" media-type="image/jpeg"/>
+        <item id="id9" href="../3.1%20-%20STOP%20CETA.jpg" media-type="image/jpeg"/>
+        <item id="id10" href="../3.2%20-%20Stop%20ISDS.jpg" media-type="image/jpeg"/>
+        <item id="id11" href="../5%20-%20Effondrement%20du%20Rana%20Plaza%20%40rijans%20CC%20BY%20SA.jpg" media-type="image/jpeg"/>
+        <item id="id12" href="../8%20-%20SPIM_illust07.jpg" media-type="image/jpeg"/>
+        <item id="id13" href="../9%20-%20CAC.png" media-type="image/png"/>
+        <item id="id14" href="../10%20-%20smell%20the%20fascism%20%40Abhisek%20Sarda%20CC%20BY%202.0.jpg" media-type="image/jpeg"/>
+        <item id="id16" href="../11.1%20-%20Fresque%20murale%20representant%20Erdogan%2c%20Trump%20et%20Putin.%20Credit%20Stoerer%20Dresden%20CC%20BY%202.0%20Flickr.png" media-type="image/png"/>
+        <item id="id17" href="../11.2%20-%20Manifestation%20de%20femmes%20brésilienne%20contre%20la%20candidature%20de%20Jair%20Bolsonaro%20en%20octobre%202018%20Crédit%20R4vi%20%28CC%20BY-SA%202.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id18" href="../12%20-%20Etat%20d%27urgence%2c%20%23stopsharkfinning%2c%20rue%20Riquet%2c%20Paris%20Crédit%20Jeanne%20Menjoulet%20%28CC%20BY-ND%202.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id19" href="../13%20-%20Policier%20%40Felipe%20Barrientos.jpeg" media-type="image/jpeg"/>
+        <item id="id20" href="../14%20-%20Manifestation%20en%20faveur%20de%20la%20Palestine%20et%20pour%20le%20Boycott%2c%20Sanctions%20et%20Désinvestissement%20contre%20Israel%20Crédit%20Alex%20Chis%28CC%20BY-SA%202.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id15" href="../15.1%20-%20Tombe%20de%20Berta%20Caceres%2c%20défenseuse%20de%20l%27environnement%20et%20de%20son%20peuple%20Lenca%20Crédit%20Trocaire%20%28CC%20BY%202.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id21" href="../15.2%20-%20Tania%20Carolina%20Hernandez%2c%2023%20ans%2c%20au%20Honduras%2c%20pose%20en%20solidarité%20avec%20les%20personnes%20subissant%20des%20attaques%20des%20multinationales%20Crédit%20Trocaire%20%28CC%20BY%202.0%29%20.jpg" media-type="image/jpeg"/>
+        <item id="id22" href="../16%20-%20Un%20soldat%20bresilien%20salue%20le%20drapeau.%20Photo%20Garon%20Piceli%20-%20domaine%20public%20.jpg" media-type="image/jpeg"/>
+        <item id="id23" href="../17%20-%20Photo%20bolivie%20%40Suzanne%20Kruyt.jpg" media-type="image/jpeg"/>
+        <item id="id24" href="../18.1%20-%20Liberté%20d%27expression.jpeg" media-type="image/jpeg"/>
+        <item id="id25" href="../18.2%20-%20Mass%20surveillance%20%40EFF%20%28CC%20BY2.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id26" href="../19%20-%20%40Burst%20CC0.jpg" media-type="image/jpeg"/>
+        <item id="id27" href="../20.1%20-%20Canada%20-%20Raid%20policier%20sur%20un%20point%20de%20contrôle%20gidimt’en.jpg" media-type="image/jpeg"/>
+        <item id="id28" href="../20.2%20-%20Canada%20-%20Manifestation%20près%20du%20campement%20de%20revendication%20territoriale%20des%20Six%20Nations.jpg" media-type="image/jpeg"/>
+        <item id="id29" href="../20.3%20-%20Canada%20-%20Idle%20No%20More%20Ottawa.jpg" media-type="image/jpeg"/>
+        <item id="id30" href="../20.4%20-%20Canada%20-%20Raid%20de%20la%20GRC%20contre%20un%20point%20de%20contrôle%20gidimt’en.jpg" media-type="image/jpeg"/>
+        <item id="id31" href="../20.5%20-%20Canada%20-%20blocage%20ferroviaire.jpg" media-type="image/jpeg"/>
+        <item id="id32" href="../20.6%20-%20Canada%20-%20Solidarité%20à%20Ottawa.jpg" media-type="image/jpeg"/>
+        <item id="id33" href="../21%20-%20Moment%20de%20transmission%2c%20apprendre%20à%20souder%20la%20fibre%20photo%20par%20zorun.jpeg" media-type="image/jpeg"/>
+        <item id="id34" href="../22%20-%20Resilience%20et%20riposte%20LA%20Coalition.jpg" media-type="image/jpeg"/>
+        <item id="id35" href="../23-%20autodéfense.jpeg" media-type="image/jpeg"/>
+        <item id="id36" href="../24%20-%20Barricadas%20en%20Chile%20%40Felipe%20Barrientos.jpeg" media-type="image/jpeg"/>
+        <item id="id37" href="../25%20-%20Manif%20féministe%20pacifisme%20est%20un%20privilège%20%40Jean%20Menjoulet%20CC%20BY%202.0.jpg" media-type="image/jpeg"/>
+        <item id="id38" href="../26.1%20-%20Defund%20disarm%20dismantle%20abolish%20the%20police%20%40Jason%20Hargrove%20CC%20BY%202.0.jpg" media-type="image/jpeg"/>
+        <item id="id39" href="../26.2%20-%20Fund%20the%20people%20and%20defund%20the%20police%20%40Liz%20Henry%20%28CC%20BY-ND%202.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id40" href="../28%20-%20Africa%20Up%20rising%20%40Heinrich-Böll-Stiftung%20%28CC%20BY-SA%202.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id41" href="../29.1%20-%20Togo%20pas%20plus%20de%20deux%20mandats%20%40Pascal.van%20%28CC%20BY-SA%202.0%29.jpg" media-type="image/jpeg"/>
+        <item id="id42" href="../29.2%20-%20manifestation%20de%20la%20%20diaspora%20togolaise%20à%20Paris%20%40Pascal.van%20CC%20BY%20SA%202.0.jpg" media-type="image/jpeg"/>
+        <item id="id43" href="../31-%20January%204th%2c%202021%20protest%20for%20student%20debt%20cancellation%20in%20Philadelphia%2c%20PA%20%20credit%20Josh%20Yoder.jpeg" media-type="image/jpeg"/>
+        <item id="id44" href="../32-%20Crédit%20photo%20Empodera%20%26%20Almedio%20Consultores.jpg" media-type="image/jpeg"/>
     </manifest>
     <spine toc="toc.ncx">
         <itemref idref="titlepage"/>
